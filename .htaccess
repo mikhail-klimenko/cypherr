@@ -1,6 +1,6 @@
 AuthType Basic
 AuthName "Введите пароль!"
-AuthUserFile ../.htpasswd
+AuthUserFile /home/t/topulpru/cypherr_klimenko_me/.htpasswd
 Require valid-user
 <Files .htpasswd>
    deny from all  #запрет доступа из браузера к .htpasswd
