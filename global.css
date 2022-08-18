@@ -599,7 +599,7 @@ main {
   width: 100%;
 }
 .banner__item {
-  background: url(assets/0ad3ffb77d8d389bb0a3.png) no-repeat;
+  background: url(./images/banner.png) no-repeat;
   background-size: cover;
   height: 920px !important;
   position: relative;
