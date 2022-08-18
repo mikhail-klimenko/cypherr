@@ -202,6 +202,7 @@ main {
   height: 250%;
   top: 2px;
   background: #181818;
+  opacity: 0;
 }
 .header__menu-title {
   z-index: 1;
