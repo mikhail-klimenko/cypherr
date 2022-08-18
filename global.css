@@ -1,10 +1,10 @@
 @font-face {
   font-family: generalFont;
-  src: url(.fonts/Gotham_Pro/gothampro.ttf) format('truetype');
+  src: url(./fonts/Gotham_Pro/gothampro.ttf) format('truetype');
 }
 @font-face {
   font-family: generalFontBold;
-  src: url(.fonts/Gotham_Pro/gothampro_bold.ttf) format('truetype');
+  src: url(./fonts/Gotham_Pro/gothampro_bold.ttf) format('truetype');
 }
 * {
   margin: 0;
