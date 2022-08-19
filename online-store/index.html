@@ -1,71 +1,79 @@
 <html>
-  <head>
-      <meta charset="UTF-8">
-      <title>MainPage</title>
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script defer="defer" src="../global.js"></script>
-      <script defer="defer" src="local.js"></script>
-      <link href="../global.css" rel="stylesheet">
-      <link href="local.css" rel="stylesheet">
-  </head>
-  <body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MainPage</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer="defer" src="../global.js"></script>
+    <script defer="defer" src="local.js"></script>
+    <link href="../global.css" rel="stylesheet">
+    <link href="local.css" rel="stylesheet">
+</head>
+
+<body>
     <div class="fixed-block">
         <header class="header">
-            <div class="header__social"><a class="header__social-item" href="tel:+7 (999) 521-91-01"><img
-                        src="../images/white-phone-icon.svg" alt="white-phone-icon"></a><a class="header__social-item"
-                    href=""><img src="../images/telegram-icon.svg" alt="telegram-icon"></a></div><a
-                class="header__logo" href="">
-                <div class="header__logo-image"><img src="../images/logo-mini.svg" alt="logo-mini"></div>
-                <div class="header__logo-txt">Автоматицазия бизнеса</div>
-            </a>
-            <nav class="bold">
-                <ul class="header__menu">
-                    <li class="header__menu-item">
-                        <div class="header__mouse-connect"></div><a class="header__menu-title bold" href="">Сайты</a>
-                        <ul class="drop-menu">
-                            <li><a class="drop-menu__item" href="">
-                                    <div class="drop-menu__id bold">01</div>
-                                    <div class="drop-menu__title bold">Интернет-магазины</div>
-                                </a></li>
-                            <li><a class="drop-menu__item" href="">
-                                    <div class="drop-menu__id bold">02</div>
-                                    <div class="drop-menu__title bold">Корпоративные сайты</div>
-                                </a></li>
-                            <li><a class="drop-menu__item" href="">
-                                    <div class="drop-menu__id bold">03</div>
-                                    <div class="drop-menu__title bold">Лендинги</div>
-                                </a></li>
-                            <li><a class="drop-menu__item" href="">
-                                    <div class="drop-menu__id bold">04</div>
-                                    <div class="drop-menu__title bold">Шаблоны</div>
-                                </a></li>
-                        </ul>
-                    </li><a class="header__menu-item bold" href="">Мобильные приложения </a><a
-                        class="header__menu-item bold" href="">CRM</a><a class="header__menu-item bold" href="">Заказная
-                        работа ПО</a><a class="header__menu-item bold" href="">UI/UX Дизайн</a>
-                </ul>
-            </nav>
-            <div class="header__burger">
-                <div class="header__burger-line"></div>
-                <div class="header__burger-line"></div>
-                <div class="header__burger-line"></div>
-                <div class="header__burger-line"></div>
+            <div class="header__container">
+                <div class="header__social"><a class="header__social-item" href="tel:+7 (999) 521-91-01"><img
+                            src="./images/white-phone-icon.svg" alt="white-phone-icon"></a><a
+                        class="header__social-item" href=""><img src="./images/telegram-icon.svg"
+                            alt="telegram-icon"></a></div><a class="header__logo" href="">
+                    <div class="header__logo-image"><img src="./images/logo-mini.svg" alt="logo-mini"></div>
+                    <div class="header__logo-txt">Автоматицазия бизнеса</div>
+                </a>
+                <nav class="bold">
+                    <ul class="header__menu">
+                        <li class="header__menu-item">
+                            <div class="header__mouse-connect"></div><a class="header__menu-title bold"
+                                href="">Сайты</a>
+                            <ul class="drop-menu">
+                                <li><a class="drop-menu__item" href="">
+                                        <div class="drop-menu__id bold">01</div>
+                                        <div class="drop-menu__title bold">Интернет-магазины</div>
+                                    </a></li>
+                                <li><a class="drop-menu__item" href="">
+                                        <div class="drop-menu__id bold">02</div>
+                                        <div class="drop-menu__title bold">Корпоративные сайты</div>
+                                    </a></li>
+                                <li><a class="drop-menu__item" href="">
+                                        <div class="drop-menu__id bold">03</div>
+                                        <div class="drop-menu__title bold">Лендинги</div>
+                                    </a></li>
+                                <li><a class="drop-menu__item" href="">
+                                        <div class="drop-menu__id bold">04</div>
+                                        <div class="drop-menu__title bold">Шаблоны</div>
+                                    </a></li>
+                            </ul>
+                        </li><a class="header__menu-item bold" href="">Мобильные приложения </a><a
+                            class="header__menu-item bold" href="">CRM</a><a class="header__menu-item bold"
+                            href="">Заказная
+                            работа ПО</a><a class="header__menu-item bold" href="">UI/UX Дизайн</a>
+                    </ul>
+                </nav>
+                <div class="header__burger">
+                    <div class="header__burger-line"></div>
+                    <div class="header__burger-line"></div>
+                    <div class="header__burger-line"></div>
+                    <div class="header__burger-line"></div>
+                </div>
             </div>
         </header>
         <div class="under-header">
-            <div class="under-header__contacts">
-                <div class="under-header__number">
-                    <div class="under-header__icon"><img src="../images/phone-icon.svg" alt="phone-icon"></div><a
-                        class="under-header__txt" href="tel:+7 (999) 521-91-01">+7 (999) 521-91-01</a>
+            <div class="under-header__container">
+                <div class="under-header__contacts">
+                    <div class="under-header__number">
+                        <div class="under-header__icon"><img src="./images/phone-icon.svg" alt="phone-icon"></div><a
+                            class="under-header__txt" href="tel:+7 (999) 521-91-01">+7 (999) 521-91-01</a>
+                    </div>
                 </div>
-            </div>
-            <div class="under-header__request-btn">
-                <div class="under-header__request-icon"><img src="../images/mail-icon.svg" alt="mail-icon">
+                <div class="under-header__request-btn">
+                    <div class="under-header__request-icon"><img src="./images/mail-icon.svg" alt="mail-icon">
+                    </div>
+                    <div class="under-header__request-txt bold">Оставить заявку</div>
+                    <div class="under-header__request-icon"><img src="./images/right-arrow-icon.svg" alt="right-arrow-icon">
+                    </div>
                 </div>
-                <div class="under-header__request-txt bold">Оставить заявку</div>
-                <div class="under-header__request-icon"><img src="../images/right-arrow-icon.svg"
-                        alt="right-arrow-icon"></div>
             </div>
         </div>
         <div class="header__burger-menu">
@@ -217,12 +225,12 @@
                 <div class="footer__projects-and-contacts-content">
                     <div class="footer__title bold"><a href="#">Проекты</a></div>
                     <div class="footer__title bold"><a href="#">Контакты</a></div>
-                    <div class="footer__contacts-item"><img src="../images/gray-phone-icon.svg"
-                            alt="gray-phone-icon"><a href="tel:+7 (999) 521-91-01">+7 (999) 521-91-01</a></div>
-                    <div class="footer__contacts-item"><img src="../images/gray-phone-icon.svg"
-                            alt="gray-phone-icon"><a href="tel:+7 (999) 521-91-01">+7 (925) 720-48-90</a></div>
-                    <div class="footer__contacts-item"><img src="../images/gray-mail-icon.svg"
-                            alt="gray-mail-icon"><a href="mailto:info@cypherr.ru">info@cypherr.ru</a></div>
+                    <div class="footer__contacts-item"><img src="../images/gray-phone-icon.svg" alt="gray-phone-icon"><a
+                            href="tel:+7 (999) 521-91-01">+7 (999) 521-91-01</a></div>
+                    <div class="footer__contacts-item"><img src="../images/gray-phone-icon.svg" alt="gray-phone-icon"><a
+                            href="tel:+7 (999) 521-91-01">+7 (925) 720-48-90</a></div>
+                    <div class="footer__contacts-item"><img src="../images/gray-mail-icon.svg" alt="gray-mail-icon"><a
+                            href="mailto:info@cypherr.ru">info@cypherr.ru</a></div>
                 </div>
             </div>
         </div>
@@ -234,6 +242,6 @@
             <div class="footer__after-separator-item">© 2022 Все права защищены</div>
         </div>
     </footer>
-  </body>
+</body>
 
 </html>
