@@ -206,7 +206,7 @@ main {
 .header__mouse-connect {
   width: 100%;
   position: absolute;
-  height: 250%;
+  height: 100%;
   top: 2px;
   background: #181818;
   opacity: 0;
@@ -465,6 +465,9 @@ main {
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+}
+.under-header__number:not(:last-child) {
+  margin-right: 15px;
 }
 .under-header__icon {
   width: 20px;
