@@ -451,7 +451,7 @@ main {
   -ms-flex-align: center;
   align-items: center;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 40px;
   width: inherit;
 }
 .under-header__number {
