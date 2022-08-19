@@ -129,17 +129,24 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
   height: 100px;
   padding: 0 192px;
   background: #181818;
 }
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .header__social {
   display: none;
   -webkit-box-align: baseline;
@@ -424,15 +431,17 @@ main {
   font-size: 16px;
 }
 .under-header {
+  width: 100%;
+  height: 64px;
+  background-color: #181818;
+}
+.under-header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   width: 100%;
-  height: 64px;
-  background-color: #fff;
+  height: 100%;
+  background: white;
 }
 .under-header__contacts {
   display: -webkit-box;
@@ -441,10 +450,11 @@ main {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-right: 15px;
+  padding-left: 15px;
   width: inherit;
 }
 .under-header__number {
