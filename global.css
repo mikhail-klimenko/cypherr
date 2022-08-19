@@ -133,7 +133,6 @@ main {
   -ms-flex-align: center;
   align-items: center;
   height: 100px;
-  padding: 0 192px;
   background: #181818;
 }
 
@@ -257,9 +256,6 @@ main {
   border-radius: 2px;
 }
 @media (max-width: 1600px) {
-  .header {
-    padding: 0 50px;
-  }
 }
 @media (max-width: 1270px) {
   .header__menu-item:not(:last-child) {
@@ -267,13 +263,9 @@ main {
   }
 }
 @media (max-width: 960px) {
-  .header {
-    padding: 0 20px;
-  }
 }
 @media (max-width: 900px) {
   .header {
-    padding: 0 45px;
     height: 70px;
   }
   nav {
@@ -300,7 +292,6 @@ main {
 }
 @media (max-width: 460px) {
   .header {
-    padding: 0 20px;
   }
 }
 .header__burger-menu {
@@ -450,8 +441,6 @@ main {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-right: 15px;
-  padding-left: 50px;
   width: inherit;
 }
 .under-header__number {
@@ -568,7 +557,11 @@ main {
 }
 .banner__switcher {
   position: absolute;
-  left: 10%;
+  right: 50%;
+  left: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -622,7 +615,7 @@ main {
   background-size: cover;
   height: 920px !important;
   position: relative;
-  padding: 140px 28px 0 28px;
+  padding: 140px 50px 0 50px;
 }
 .banner__content {
   display: -webkit-box;
