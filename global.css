@@ -754,6 +754,16 @@ main {
 	font-size: 60px;
 }
 
+@media (max-width: 1640px) {
+	.banner__switcher {
+		left: 50px;
+	}
+
+  .banner__container {
+    margin: 0;
+  }
+}
+
 @media (max-width: 1600px) {
 	.banner__image--second {
 		right: 5%;
