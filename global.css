@@ -620,9 +620,11 @@ main {
 	max-width: 100%;
 	position: relative;
 }
+
 .banner__container {
-  position: relative;
+	position: relative;
 }
+
 .banner__switcher {
 	position: absolute;
 	width: -webkit-fit-content;
@@ -759,9 +761,9 @@ main {
 		left: 50px;
 	}
 
-  .banner__container {
-    margin: 0;
-  }
+	.banner__container {
+		margin: 0;
+	}
 }
 
 @media (max-width: 1600px) {
@@ -1607,11 +1609,14 @@ main {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 30px;
-	margin-bottom: 170px;
 }
 
-.services__list-item:not(:last-child) {
-	margin-bottom: 60px;
+.services__deadlines {
+	margin-top: 170px;
+}
+
+.services__list-item:not(:first-child) {
+	margin-top: 60px;
 }
 
 .services__list-item span {
