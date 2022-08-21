@@ -350,10 +350,6 @@ main {
   }
 }
 
-@media (max-width: 460px) {
-	.header {}
-}
-
 .header__burger-menu {
   display: none;
   top: 0;
