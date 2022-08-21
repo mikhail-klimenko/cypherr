@@ -481,9 +481,7 @@ main {
     color-stop(210%, #ffffff)
   );
   background: linear-gradient(360deg, #1c1b1b 7.47%, #ffffff 210%);
-  border-radius: 8px 0px 0px 8px;
   height: 100%;
-  width: 30%;
   cursor: pointer;
   padding: 0 15px;
   min-width: 240px;
