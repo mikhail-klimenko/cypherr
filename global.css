@@ -293,7 +293,11 @@ main {
 	border-radius: 2px;
 }
 
-@media (max-width: 1600px) {}
+@media (max-width: 1640px) {
+  .header__container {
+    padding: 0 50px;
+  }
+}
 
 @media (max-width: 1270px) {
 	.header__menu-item:not(:last-child) {
@@ -578,6 +582,12 @@ main {
 	font-size: 20px;
 	white-space: nowrap;
 	color: #e2e2e2;
+}
+
+@media (max-width: 1640px) {
+  .under-header__container {
+    padding: 0 50px;
+  }
 }
 
 @media (max-width: 900px) {
