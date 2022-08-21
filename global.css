@@ -768,10 +768,6 @@ main {
 	.banner__image--second {
 		right: 5%;
 	}
-
-	.banner__switcher {
-		left: 28px;
-	}
 }
 
 @media (max-width: 1400px) {
