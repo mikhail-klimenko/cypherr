@@ -45,6 +45,10 @@
 	margin-right: 30px;
 }
 
+.development-stages__number {
+	margin-top: 50px;
+}
+
 .development-stages__item-title {
 	color: #fff;
 	font-size: 22px;
@@ -172,6 +176,7 @@
 	}
 }
 
+
 .benefits {
 	margin-top: 235px;
 }
@@ -210,6 +215,7 @@
 .benefits__content>* {
 	width: 100%;
 }
+
 
 .benefits__content span {
 	display: block;
@@ -251,6 +257,7 @@
 	}
 }
 
+
 @media (max-width: 1336px) {
 	.benefits__image {
 		max-width: 600px;
@@ -264,6 +271,7 @@
 		font-size: 32px;
 	}
 }
+
 
 @media (max-width: 1200px) {
 	.benefits {
@@ -479,7 +487,6 @@
 	margin-top: 75px;
 }
 
-
 @media (min-width: 1316px) {
 	.certificates__item:not(:nth-child(3n)) {
 		margin-right: 30px;
@@ -527,12 +534,8 @@
 		margin-top: 65px;
 	}
 
-	.certificates__list {
-		margin-bottom: -30px;
-	}
-
 	.certificates__item {
-		margin-bottom: 30px;
+		margin-top: 30px;
 	}
 
 	.certificates__title {
