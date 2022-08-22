@@ -1,5 +1,5 @@
 .development-stages {
-	margin-top: 235px;
+	margin-top: 60px;
 }
 
 .development-stages__title {
@@ -33,7 +33,7 @@
 	width: calc(33.3333333333% - 20px);
 	min-width: 480px;
 	background: #181818;
-	padding: 35px 35px 45px 35px;
+	padding: 20px 20px 40px 20px;
 	border-radius: 8px;
 }
 
@@ -45,17 +45,13 @@
 	margin-right: 30px;
 }
 
-.development-stages__number {
-	margin-top: 50px;
-}
-
 .development-stages__item-title {
 	color: #fff;
 	font-size: 22px;
 }
 
 .development-stages__list {
-	margin-top: 50px;
+	margin-top: 35px;
 }
 
 .development-stages__list-item {
@@ -69,8 +65,8 @@
 	font-size: 128px;
 	color: #fff;
 	width: 215px;
-	height: 230px;
-	margin-top: 50px;
+	height: 190px;
+	margin-top: 20px;
 }
 
 .development-stages__image {
@@ -83,7 +79,7 @@
 
 @media (max-width: 1590px) {
 	.development-stages {
-		padding: 0 28px;
+		padding: 0 15px;
 	}
 
 	.development-stages__item {
@@ -101,7 +97,7 @@
 
 @media (max-width: 1200px) {
 	.development-stages {
-		margin-top: 135px;
+		margin-top: 40px;
 	}
 }
 
@@ -148,15 +144,23 @@
 		margin-top: 15px;
 	}
 
+	.development-stages__item:first-child {
+		margin-top: 0;
+	}
+
 }
 
 @media (max-width: 768px) {
 	.development-stages {
-		margin-top: 65px;
+		margin-top: 30px;
+	}
+
+	.development-stages__content {
+		margin-top: 0;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.development-stages__title {
 		display: none;
 	}
