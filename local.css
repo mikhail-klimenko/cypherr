@@ -109,6 +109,7 @@
 	.development-stages__content {
 		-ms-flex-pack: distribute;
 		justify-content: space-around;
+		margin-top: 0;
 	}
 
 	.development-stages__item {
@@ -182,11 +183,11 @@
 
 
 .benefits {
-	margin-top: 235px;
+	margin-top: 60px;
 }
 
 .benefits__section {
-	padding: 135px 28px;
+	padding: 70px 15px;
 	font-size: 30px;
 }
 
@@ -223,7 +224,7 @@
 
 .benefits__content span {
 	display: block;
-	margin-top: 75px;
+	margin-top: 30px;
 	width: 100%;
 }
 
@@ -232,7 +233,7 @@
 }
 
 .benefits__txt:not(:first-child) {
-	margin-top: 75px;
+	margin-top: 30px;
 }
 
 .benefits__text-block {
@@ -279,29 +280,26 @@
 
 @media (max-width: 1200px) {
 	.benefits {
-		margin-top: 135px;
+		margin-top: 40px;
 	}
 
 	.benefits__content span {
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 
 	.benefits__txt:not(:first-child) {
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 
 	.benefits__section {
-		padding: 65px 28px;
+		padding: 80px 10px;
+		font-size: 16px;
 	}
 
 
 
 	.benefits__text-block p:not(:first-child) {
 		margin-top: 50px;
-	}
-
-	.benefits__section {
-		font-size: 16px;
 	}
 
 	.benefits__section:nth-child(4)>.benefits__content {
@@ -361,7 +359,7 @@
 
 @media (max-width: 768px) {
 	.benefits {
-		margin-top: 65px;
+		margin-top: 30px;
 	}
 
 	.benefits__text-block {
@@ -382,15 +380,15 @@
 
 @media (max-width: 425px) {
 	.benefits__section {
-		padding: 30px 28px;
+		padding: 50px 10px;
 	}
 
 	.benefits__content span {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 
 	.benefits__txt:not(:first-child) {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 
 	.benefits__text-block {
@@ -398,7 +396,7 @@
 	}
 
 	.benefits__text-block p:not(:first-child) {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 }
 
