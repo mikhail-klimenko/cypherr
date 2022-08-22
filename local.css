@@ -14,7 +14,7 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin-top: 75px;
+	margin-top: 40px;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
@@ -115,7 +115,7 @@
 		justify-content: space-around;
 	}
 
-	.development-stages__item:not(:first-child) {
+	.development-stages__item {
 		margin-top: 30px;
 	}
 }
