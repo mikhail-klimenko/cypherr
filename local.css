@@ -3,11 +3,11 @@
 }
 
 .development-stages__title {
-	font-size: 48px;
+	font-size: 38px;
 }
 
 .development-stages__subtitle {
-	font-size: 36px;
+	font-size: 30px;
 }
 
 .development-stages__content {
@@ -47,7 +47,7 @@
 
 .development-stages__item-title {
 	color: #fff;
-	font-size: 30px;
+	font-size: 22px;
 }
 
 .development-stages__list {
@@ -56,7 +56,7 @@
 
 .development-stages__list-item {
 	color: #a680ff;
-	font-size: 24px;
+	font-size: 18px;
 	font-family: inherit;
 }
 
@@ -87,11 +87,11 @@
 	}
 
 	.development-stages__item-title {
-		font-size: 24px;
+		font-size: 18px;
 	}
 
 	.development-stages__list-item {
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
 
@@ -164,11 +164,11 @@
 
 @media (max-width: 450px) {
 	.development-stages__item-title {
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	.development-stages__list-item {
-		font-size: 13px;
+		font-size: 12px;
 	}
 }
 
@@ -178,7 +178,7 @@
 
 .benefits__section {
 	padding: 135px 28px;
-	font-size: 36px;
+	font-size: 30px;
 }
 
 .benefits__section:nth-child(2)>.benefits__content {
@@ -187,7 +187,7 @@
 }
 
 .benefits__section:nth-child(4)>.benefits__content {
-	font-size: 48px;
+	font-size: 40px;
 }
 
 .benefits__section-black {
@@ -243,11 +243,11 @@
 	}
 
 	.benefits__section {
-		font-size: 30px;
+		font-size: 24px;
 	}
 
 	.benefits__section:nth-child(4)>.benefits__content {
-		font-size: 42px;
+		font-size: 36px;
 	}
 }
 
@@ -257,11 +257,11 @@
 	}
 
 	.benefits__section {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.benefits__section:nth-child(4)>.benefits__content {
-		font-size: 36px;
+		font-size: 32px;
 	}
 }
 
@@ -289,11 +289,11 @@
 	}
 
 	.benefits__section {
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	.benefits__section:nth-child(4)>.benefits__content {
-		font-size: 30px;
+		font-size: 26px;
 	}
 }
 
@@ -313,11 +313,11 @@
 	}
 
 	.benefits__section {
-		font-size: 20px;
+		font-size: 14px;
 	}
 
 	.benefits__section:nth-child(4)>.benefits__content {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.benefits__image {
@@ -331,7 +331,7 @@
 	}
 
 	.benefits__section {
-		font-size: 20px;
+		font-size: 12px;
 	}
 
 	.benefits__section:nth-child(2)>.benefits__content {
@@ -396,7 +396,7 @@
 }
 
 .work-plan__title {
-	font-size: 36px;
+	font-size: 30px;
 }
 
 .work-plan__content {
@@ -405,12 +405,8 @@
 }
 
 .work-plan__list {
-	font-size: 30px;
+	font-size: 24px;
 	list-style: disc;
-}
-
-.work-plan__list-item {
-	line-height: 1.5;
 }
 
 @media (max-width: 1200px) {
@@ -429,21 +425,21 @@
 	}
 
 	.work-plan__title {
-		font-size: 30px;
+		font-size: 24px;
 	}
 
 	.work-plan__list {
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
 
 @media (max-width: 650px) {
 	.work-plan__title {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.work-plan__list {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.work-plan__content {
@@ -457,7 +453,7 @@
 }
 
 .certificates__title {
-	font-size: 48px;
+	font-size: 40px;
 }
 
 .certificates__list {
@@ -517,7 +513,7 @@
 	}
 
 	.certificates__title {
-		font-size: 38px;
+		font-size: 34px;
 		text-align: left;
 	}
 
@@ -540,13 +536,13 @@
 	}
 
 	.certificates__title {
-		font-size: 38px;
+		font-size: 28px;
 	}
 }
 
 @media (max-width: 500px) {
 	.certificates__title {
-		font-size: 24px;
+		font-size: 20px;
 	}
 }
 

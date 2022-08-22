@@ -564,7 +564,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   color: #797979;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .banner__number {
@@ -574,7 +574,7 @@ main {
 
 .banner__number--active {
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .banner__number:not(:last-child) {
@@ -613,7 +613,7 @@ main {
 }
 
 .banner__title {
-  font-size: 48px;
+  font-size: 40px;
   width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -623,7 +623,7 @@ main {
 }
 
 .banner__subtitle {
-  font-size: 40px;
+  font-size: 34px;
   width: 100%;
   max-width: 860px;
   height: -webkit-fit-content;
@@ -727,11 +727,11 @@ main {
 
 @media (max-width: 880px) {
   .banner__title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .banner__subtitle {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .banner__item {
@@ -850,12 +850,12 @@ main {
   }
 
   .banner__title {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 25px;
   }
 
   .banner__subtitle {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .banner__subtitle:not(:last-child) {
@@ -918,13 +918,13 @@ main {
 }
 
 .work-order__title {
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .work-order__text {
   width: 100%;
   margin-top: 75px;
-  font-size: 36px;
+  font-size: 26px;
 }
 
 .work-order__btn-block {
@@ -970,11 +970,11 @@ main {
   }
 
   .work-order__title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .work-order__text {
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 30px;
   }
 
@@ -1008,7 +1008,7 @@ main {
 }
 
 .projects__title {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .projects__content {
@@ -1063,7 +1063,7 @@ main {
 }
 
 .projects__item-title {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .projects__item-subtitle {
@@ -1108,7 +1108,7 @@ main {
   }
 
   .projects__item-subtitle {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .projects__item-small .projects__item-btn-block {
@@ -1158,7 +1158,7 @@ main {
   }
 
   .projects__title {
-    font-size: 38px;
+    font-size: 34px;
   }
 }
 
@@ -1172,11 +1172,11 @@ main {
   }
 
   .projects__item-title {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .projects__item-subtitle {
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 12px;
   }
 
