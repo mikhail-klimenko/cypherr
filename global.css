@@ -532,7 +532,7 @@ main {
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
-	top: 40px;
+	top: 10px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -616,7 +616,6 @@ main {
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
-	margin-bottom: 50px;
 	z-index: 1;
 }
 
@@ -631,8 +630,8 @@ main {
 	z-index: 1;
 }
 
-.banner__subtitle:not(:first-child) {
-	margin-top: 40px;
+.banner__subtitle {
+	margin-top: 30px;
 }
 
 .banner__image {
@@ -744,11 +743,12 @@ main {
   }
   
   .banner__title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
 	.banner__subtitle {
 		font-size: 16px;
+    margin-top: 15px;
 	}
 
 	.banner__item {
@@ -783,12 +783,11 @@ main {
 
 @media (max-width: 768px) {
 	.banner__item {
-		padding: 100px 28px 0 28px;
+		padding: 65px 28px 0 28px;
 	}
 
 	.banner__switcher {
 		left: 28px;
-		top: 20px;
 	}
 }
 
@@ -858,7 +857,7 @@ main {
   }
 
   .banner__image {
-    top: -160% !important;
+    top: -115% !important;
     right: 27% !important;
   }
 
@@ -869,15 +868,10 @@ main {
 
 	.banner__title {
 		font-size: 16px;
-		margin-bottom: 25px;
 	}
 
 	.banner__subtitle {
 		font-size: 14px;
-	}
-
-	.banner__subtitle:not(:last-child) {
-		margin-bottom: 10px;
 	}
 
 	.banner__item {
