@@ -1397,7 +1397,6 @@ main {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	padding: 0 28px 0 28px;
-	margin-bottom: -50px;
 }
 
 .capabilities__item {
@@ -1415,7 +1414,10 @@ main {
 	-ms-flex-direction: column;
 	flex-direction: column;
 	padding: 40px 40px 105px 40px;
-	margin-bottom: 50px;
+}
+
+.capabilities__item:not(:first-child) {
+	margin-top: 50px;
 }
 
 .capabilities__item:not(:last-child) {
@@ -1483,7 +1485,6 @@ main {
 
 @media (max-width: 768px) {
 	.capabilities {
-		margin-bottom: -40px;
 		margin-top: 65px;
 	}
 
@@ -1491,6 +1492,10 @@ main {
 		width: 100%;
 		margin-right: 0 !important;
 		padding-bottom: 40px;
+	}
+
+	.capabilities__item:not(:first-child) {
+		margin-top: 40px;
 	}
 
 	.capabilities__title-block {
