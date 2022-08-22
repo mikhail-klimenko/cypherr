@@ -350,11 +350,13 @@ main {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.header__social-item:last-child {
 		display: none;
 	}
+}
 
+@media (max-width: 768px) {
 	.header__content {
 		padding: 0 28px;
 	}
@@ -592,7 +594,7 @@ main {
 .banner__item {
 	background: url(./images/banner.png) no-repeat;
 	background-size: cover;
-	height: 700px !important;
+	height: 600px !important;
 	padding: 70px 50px 0 50px;
 }
 
@@ -637,8 +639,12 @@ main {
 .banner__image {
 	position: absolute;
 	z-index: 0;
-	right: 20%;
-	top: 10%;
+	right: 10%;
+	top: 0%;
+}
+
+.banner__image img {
+	width: 85%;
 }
 
 .banner__image--away {
@@ -685,7 +691,7 @@ main {
 	}
 
 	.banner__image--second img {
-		width: 75%;
+		width: 60%;
 	}
 }
 
@@ -706,9 +712,13 @@ main {
 	}
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
 	.banner__image--second {
-		top: 43%;
+		top: 40% !important;
+	}
+
+	.banner__image--second img {
+		width: 50% !important;
 	}
 }
 
@@ -719,13 +729,14 @@ main {
 	}
 
 	.banner__image--third img {
-		width: 60% !important;
+		width: 50% !important;
 	}
 }
 
 @media (max-width: 970px) {
 	.banner__image {
 		right: 0;
+		top: 10%;
 	}
 
 	.banner__image img {
@@ -743,45 +754,50 @@ main {
 	}
 
 	.banner__title {
-		font-size: 20px;
+		font-size: 26px;
 	}
 
 	.banner__subtitle {
-		font-size: 16px;
-		margin-top: 15px;
+		font-size: 22px;
+		margin-top: 10px;
 	}
 
 	.banner__item {
-		height: 600px !important;
+		height: 360px !important;
 	}
 
 	.banner__image {
-		top: 15%;
+		right: -10%;
+		top: 13%;
 	}
 
 	.banner__image img {
-		width: 60%;
+		width: 42%;
 	}
 
 	.banner__image--second {
-		top: 30%;
+		top: 30% !important;
 	}
 
 	.banner__image--second img {
-		width: 50%;
+		width: 35% !important;
 	}
 
 	.banner__image--third {
-		right: -10% !important;
+		right: -15% !important;
 		top: 5% !important;
 	}
 
 	.banner__image--third img {
-		width: 70% !important;
+		width: 45% !important;
 	}
 }
 
 @media (max-width: 768px) {
+	.banner__image {
+		right: -15%;
+	}
+
 	.banner__item {
 		padding: 65px 28px 0 28px;
 	}
@@ -789,65 +805,46 @@ main {
 	.banner__switcher {
 		left: 28px;
 	}
+
+	.banner__image--third {
+		right: -30% !important;
+	}
 }
 
 @media (max-width: 700px) {
-	.banner__image--third img {
-		width: 60%;
-	}
-}
 
-@media (max-width: 670px) {
 	.banner__image--third {
-		top: 42%;
-		right: -20%;
-	}
-
-	.banner__image--third img {
-		width: 50%;
+		right: -30% !important;
 	}
 }
 
 @media (max-width: 650px) {
 	.banner__image {
 		top: 15%;
-		right: -100px;
-	}
-
-	.banner__image img {
-		width: 60%;
+		right: -30%;
 	}
 
 	.banner__image--second {
-		top: 40%;
+		top: 40% !important;
 	}
 
 	.banner__image--second img {
-		width: 50%;
+		width: 30% !important;
 	}
 
 	.banner__image--third {
-		right: -20% !important;
-	}
-}
-
-@media (max-width: 600px) {
-	.banner__image--second {
-		top: 45%;
-	}
-
-	.banner__image--second img {
-		width: 45%;
-	}
-}
-
-@media (max-width: 600px) {
-	.banner__image--third {
-		right: -35% !important;
+		right: -40% !important;
 	}
 
 	.banner__image--third img {
-		width: 50%;
+		width: 40% !important;
+	}
+}
+
+
+@media (max-width: 600px) {
+	.banner__image--third {
+		right: -45% !important;
 	}
 }
 
@@ -857,13 +854,13 @@ main {
 	}
 
 	.banner__image {
-		top: -115% !important;
-		right: 27% !important;
+		top: -100% !important;
+		right: calc(50% - 68.5px) !important;
 	}
 
 	.banner__image img {
 		width: 100% !important;
-		height: 275px !important;
+		height: 190px !important;
 	}
 
 	.banner__title {
@@ -875,32 +872,20 @@ main {
 	}
 
 	.banner__item {
-		padding-top: 390px;
+		padding-top: 260px;
+		height: 460px !important;
 	}
 }
 
 @media (max-width: 450px) {
-	.banner__image {
-		top: -120%;
-		right: 27%;
-	}
-
-	.banner__item {
-		height: 640px !important;
-	}
-
 	.banner__image--third {
 		right: 22% !important;
 	}
 }
 
 @media (max-width: 400px) {
-	.banner__image {
-		right: 20%;
-	}
-
 	.banner__switcher {
-		left: 6%;
+		left: 28px;
 	}
 }
 
@@ -1024,7 +1009,6 @@ main {
 	font-size: 40px;
 }
 
-/* sdasd */
 .projects__content {
 	margin-top: 75px;
 }
@@ -1127,7 +1111,6 @@ projects__item-image {
 	margin-top: 15px;
 }
 
-/* dsad */
 .projects__item-btn-block {
 	display: -webkit-box;
 	display: -ms-flexbox;
