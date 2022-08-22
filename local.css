@@ -340,12 +340,8 @@
 		margin-top: 10px;
 	}
 
-	.benefits__section {
-		font-size: 12px;
-	}
-
 	.benefits__section:nth-child(2)>.benefits__content {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.benefits__section:nth-child(4)>.benefits__content {
