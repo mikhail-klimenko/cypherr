@@ -737,7 +737,6 @@ main {
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
-	margin-bottom: 50px;
 	z-index: 1;
 }
 
@@ -752,8 +751,8 @@ main {
 	z-index: 1;
 }
 
-.banner__subtitle:not(:last-child) {
-	margin-bottom: 40px;
+.banner__subtitle:not(:first-child) {
+	margin-top: 40px;
 }
 
 .banner__image {
@@ -950,15 +949,14 @@ main {
 
 	.banner__title {
 		font-size: 20px;
-		margin-bottom: 25px;
 	}
 
 	.banner__subtitle {
 		font-size: 16px;
 	}
 
-	.banner__subtitle:not(:last-child) {
-		margin-bottom: 10px;
+	.banner__subtitle:not(:first-child) {
+		margin-top: 10px;
 	}
 
 	.banner__item {
