@@ -1944,20 +1944,14 @@ projects__item-image {
 		font-size: 16px;
 	}
 
-	.footer__title:nth-child(2) {
-		margin-bottom: 12px !important;
-	}
-
 	.footer__nav-item:not(:first-child) {
 		margin-top: 12px !important;
 	}
 
-	.footer__services {
-		margin-bottom: 24px;
-	}
-
 	.footer__projects-and-contacts-content {
 		float: left;
+		margin-top: 24px;
+
 	}
 
 	.footer__separator {
@@ -1966,11 +1960,14 @@ projects__item-image {
 
 	.footer__mobile-logo-block {
 		display: block;
-		margin-bottom: 25px;
 	}
 
 	.footer__logo-text {
 		font-size: 6px;
+	}
+
+	.footer__services {
+		margin-top: 25px;
 	}
 
 	.footer {
