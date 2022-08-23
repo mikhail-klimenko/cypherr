@@ -250,8 +250,8 @@ main {
 }
 
 .header__burger {
-	height: 44px;
-	width: 56px;
+	height: 35px;
+	width: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -581,7 +581,7 @@ main {
 }
 
 .banner__title {
-	font-size: 40px;
+	font-size: 34px;
 	width: 100%;
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
@@ -590,7 +590,7 @@ main {
 }
 
 .banner__subtitle {
-	font-size: 34px;
+	font-size: 30px;
 	width: 100%;
 	max-width: 860px;
 	height: -webkit-fit-content;
@@ -699,11 +699,11 @@ main {
 	}
 
 	.banner__title {
-		font-size: 26px;
+		font-size: 24px;
 	}
 
 	.banner__subtitle {
-		font-size: 22px;
+		font-size: 20px;
     	margin-top: 10px;
 	}
 
