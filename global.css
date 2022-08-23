@@ -358,13 +358,13 @@ main {
 	width: 100vw;
 	height: 100vh;
 	background: #181818;
-	padding: 150px 50px 40px 50px;
 	overflow-y: auto;
 	-webkit-animation-name: menuClose;
     animation-name: menuClose;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
-	left: -100%;
+	left: -110%;
+	padding: 150px 50px 40px 50px;
 }
 
 .header__burger-menu--active {
@@ -404,6 +404,10 @@ main {
 	font-size: 30px;
 }
 
+.header__burger-menu-item-title:hover {
+	color: #95deff;
+}
+
 .header__burger-menu-subtitle {
 	font-size: 20px;
 	padding-left: 30px;
@@ -411,6 +415,10 @@ main {
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
+}
+
+.header__burger-menu-subtitle:hover {
+	color: #95deff;
 }
 
 .header__burger-menu-subtitle:not(:last-child) {
@@ -480,7 +488,7 @@ main {
 
 @keyframes menuOpen {
 	from {
-		left: -100%;
+		left: -110%;
 	}
 
 	to {
@@ -494,7 +502,7 @@ main {
 	}
 
 	to {
-		left: -100%;
+		left: -110%;
 	}
 }
 
