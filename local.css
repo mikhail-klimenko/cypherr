@@ -115,7 +115,7 @@
 	.development-stages__item {
 		margin-top: 30px;
 	}
-} 
+}
 
 @media (max-width: 880px) {
 	.development-stages__title {
@@ -128,11 +128,11 @@
 }
 
 @media (max-width: 800px) {
-	
+
 	.development-stages__item {
 		width: 100%;
 		max-width: 500px;
-		padding: 30px 40px 10px 20px;
+		padding: 30px 40px 30px 20px;
 	}
 
 	.development-stages__list {
