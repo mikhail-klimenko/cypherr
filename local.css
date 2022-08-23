@@ -1,3 +1,7 @@
+.development-stages__content {
+	padding: 0 50px;
+}
+
 .development-stages {
 	margin-top: 60px;
 }
@@ -10,7 +14,7 @@
 	font-size: 30px;
 }
 
-.development-stages__content {
+.development-stages__info {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -31,7 +35,7 @@
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	width: calc(33.3333333333% - 20px);
-	min-width: 480px;
+	min-width: 320px;
 	background: #181818;
 	padding: 20px 20px 40px 20px;
 	border-radius: 8px;
@@ -78,10 +82,6 @@
 }
 
 @media (max-width: 1590px) {
-	.development-stages {
-		padding: 0 15px;
-	}
-
 	.development-stages__item {
 		min-width: 300px;
 	}
@@ -101,12 +101,12 @@
 	}
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1170px) {
 	.development-stages__item {
 		width: calc(50% - 30px);
 	}
 
-	.development-stages__content {
+	.development-stages__info {
 		-ms-flex-pack: distribute;
 		justify-content: space-around;
 		margin-top: 0;
@@ -136,7 +136,7 @@
 		margin-right: 0;
 	}
 
-	.development-stages__content {
+	.development-stages__info {
 		-ms-flex-pack: distribute;
 		justify-content: space-around;
 	}
@@ -149,25 +149,26 @@
 		margin-top: 0;
 	}
 
-}
-
-@media (max-width: 768px) {
-	.development-stages {
-		margin-top: 30px;
-	}
-
-	.development-stages__content {
-		margin-top: 0;
-	}
-}
-
-@media (max-width: 768px) {
 	.development-stages__title {
 		display: none;
 	}
 
 	.development-stages__subtitle {
 		display: none;
+	}
+
+	.development-stages {
+		margin-top: 30px;
+	}
+
+	.development-stages__info {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.development-stages__content {
+		padding: 0 28px;
 	}
 }
 
@@ -181,13 +182,12 @@
 	}
 }
 
-
 .benefits {
 	margin-top: 60px;
 }
 
 .benefits__section {
-	padding: 70px 15px;
+	padding: 70px 50px;
 	font-size: 30px;
 }
 
@@ -292,11 +292,8 @@
 	}
 
 	.benefits__section {
-		padding: 80px 15px;
 		font-size: 16px;
 	}
-
-
 
 	.benefits__text-block p:not(:first-child) {
 		margin-top: 50px;
@@ -356,6 +353,10 @@
 @media (max-width: 768px) {
 	.benefits {
 		margin-top: 30px;
+	}
+
+	.benefits__section {
+		padding: 50px 28px;
 	}
 
 	.benefits__text-block {
