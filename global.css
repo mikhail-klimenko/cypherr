@@ -634,7 +634,6 @@ main {
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
-	cursor: pointer;
 	z-index: 1;
 }
 
