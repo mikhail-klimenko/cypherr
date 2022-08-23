@@ -55,3 +55,17 @@ const checkoutTabs = (item, index) => {
 
 tabsItems.forEach(checkoutTabs)
 
+//-инициаотзация кнопки все проекты
+
+if (document.querySelectorAll('.projects__item') != null && document.querySelectorAll('.projects__btn') != null) {
+	const showAll = document.querySelector('.projects__btn')
+	const projectsItems = document.querySelectorAll('.projects__item')
+
+	showAll.addEventListener('click', () => {
+		for (let i = 0; projectsItems.length > i; i++) {
+			projectsItems[i].addClass('.show-all');
+			projectsItems[i].remove('.show-all')
+		}
+
+	})
+}
