@@ -255,25 +255,28 @@ main {
 	cursor: pointer;
 	z-index: 3;
 	position: relative;
+
 }
 
-.header__burger--active:not(:last-child):not(:first-child) {
+.header__burger--active:nth-child(2) {
 	display: none;
 }
 
 .header__burger--active:last-child,
 .header__burger--active:first-child {
-	width: 60px;
+	width: 50px;
 	position: absolute;
-	top: 22px;
+	top: 17px;
 }
 
 .header__burger--active:last-child {
-	transform: rotate(45deg);
+	transform: rotate(-45deg);
+	transition:  0.5s;
 }
 
 .header__burger--active:first-child {
-	transform: rotate(-45deg);
+	transform: rotate(45deg);
+	transition:  0.5s;
 }
 
 .header__burger-line {
@@ -281,6 +284,8 @@ main {
 	height: 0;
 	border: 1px solid #fff;
 	border-radius: 2px;
+	transform: rotate(0deg);
+	transition:  0.5s;
 }
 
 @media (max-width: 1440px) {
@@ -347,7 +352,6 @@ main {
 }
 
 .header__burger-menu {
-	display: none;
 	top: 0;
 	position: fixed;
 	z-index: 2;
@@ -356,10 +360,20 @@ main {
 	background: #181818;
 	padding: 150px 50px 40px 50px;
 	overflow-y: auto;
+	-webkit-animation-name: menuClose;
+    animation-name: menuClose;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+	left: -100%;
 }
 
 .header__burger-menu--active {
 	display: block;
+    -webkit-animation-name: menuOpen;
+    animation-name: menuOpen;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+	left: 0;
 }
 
 .header__burger-menu-content {
@@ -461,6 +475,26 @@ main {
 
 	.header__burger-menu-subtitle {
 		font-size: 12px;
+	}
+}
+
+@keyframes menuOpen {
+	from {
+		left: -100%;
+	}
+
+	to {
+		left: 0;
+	}
+}
+
+@keyframes menuClose {
+	from {
+		left: 0;
+	}
+
+	to {
+		left: -100%;
 	}
 }
 
