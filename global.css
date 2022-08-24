@@ -1295,13 +1295,13 @@ projects__item-image {
 	font-family: generalFontBold;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 30px;
 }
 
 .stages__content {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 90px;
+	margin-top: 50px;
 }
 
 .stages__item {
@@ -1333,16 +1333,16 @@ projects__item-image {
 .stages__item-title {
 	font-style: normal;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 20px;
 	margin-top: 30px;
 }
 
 .stages__item-text {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 16px;
 	min-height: 210px;
-	margin-top: 40px;
+	margin-top: 20px;
 	max-width: 275px;
 }
 
@@ -1386,7 +1386,7 @@ projects__item-image {
 
 @media (max-width: 768px) {
 	.stages__title {
-		font-size: 30px;
+		font-size: 24px;
 	}
 
 	.stages__content {
@@ -1398,13 +1398,11 @@ projects__item-image {
 	}
 
 	.stages__item-title {
-		font-size: 24px;
 		margin-top: 0;
 	}
 
 	.stages__item-text {
-		font-size: 16px;
-		margin-top: 20px;
+		font-size: 14px;
 		min-height: 150px;
 	}
 }
@@ -1669,13 +1667,13 @@ projects__item-image {
 }
 
 .li-block__item {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .li-block__item span {
-	font-size: 30px;
+	font-size: 24px;
 }
 
 @media (max-width: 1200px) {
@@ -1685,6 +1683,8 @@ projects__item-image {
 }
 
 @media (max-width: 768px) {
+
+
 	.li-block {
 		margin-top: 65px;
 	}
@@ -1693,12 +1693,16 @@ projects__item-image {
 		font-size: 24px;
 	}
 
+	.li-block__text {
+		padding-left: 25px;
+	}
+
 	.li-block__item {
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	.li-block__item span {
-		font-size: 24px;
+		font-size: 20px;
 	}
 }
 
@@ -1708,11 +1712,11 @@ projects__item-image {
 	}
 
 	.li-block__item {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.li-block__item span {
-		font-size: 20px;
+		font-size: 16px;
 	}
 }
 
