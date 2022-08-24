@@ -1,11 +1,11 @@
 @font-face {
 	font-family: generalFont;
-	src: url(./fonts/Gotham_Pro/gothampro.ttf) format('truetype');
+	src: url(./fonts/NotoSans/NotoSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
 	font-family: generalFontBold;
-	src: url(./fonts/Gotham_Pro/gothampro_bold.ttf) format('truetype');
+	src: url(./fonts/NotoSans/NotoSans-SemiBold.ttf) format('truetype');
 }
 
 * {
@@ -1017,6 +1017,8 @@ main {
 }
 
 .projects__tab-content-list {
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
 	height: fit-content;
 }
 
@@ -1193,16 +1195,6 @@ projects__item-image {
 		padding: 50px 28px;
 	}
 
-	.projects__item-btn-block {
-		-webkit-box-pack: start;
-		-ms-flex-pack: start;
-		justify-content: start;
-	}
-
-	.projects__item-btn {
-		padding: 16px 122px !important;
-	}
-
 	.projects__btn {
 		margin-top: 30px;
 		width: 192px;
@@ -1246,10 +1238,6 @@ projects__item-image {
 		margin-top: 10px;
 		font-size: 14px;
 	}
-
-
-
-
 }
 
 @media (max-width: 500px) {
@@ -1274,22 +1262,7 @@ projects__item-image {
 		margin-top: 15px;
 	}
 
-	.projects__item-btn-block {
-		margin-top: 12px;
-		justify-content: center;
-	}
-
-	.projects__item-btn {
-		padding: 15px 60px;
-		font-size: 12px;
-	}
-
 	.projects__btn-block {
-		margin-top: 30px;
-		justify-content: center;
-	}
-
-	.projects__item-btn-block {
 		margin-top: 30px;
 		justify-content: center;
 	}
@@ -1300,10 +1273,6 @@ projects__item-image {
 }
 
 @media (max-width: 425px) {
-	.projects__item-btn {
-		padding: 15px 60px !important;
-	}
-
 	.projects__btn {
 		width: 190px;
 		font-size: 12px;
