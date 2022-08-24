@@ -997,6 +997,7 @@ main {
 	font-weight: 700;
 	text-align: center;
 	background: #c1c1c1;
+	cursor: pointer;
 }
 
 .projects__mobail-tab-list {
