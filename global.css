@@ -1316,6 +1316,10 @@ projects__item-image {
 	margin-top: 15px;
 }
 
+.projects__item-title {
+	font-size: 20px;
+}
+
 .projects__item-btn-block {
 	display: flex;
 	margin-top: 30px;
@@ -1518,13 +1522,13 @@ projects__item-image {
 	font-family: generalFontBold;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 30px;
 }
 
 .stages__content {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 90px;
+	margin-top: 50px;
 }
 
 .stages__item {
@@ -1556,16 +1560,16 @@ projects__item-image {
 .stages__item-title {
 	font-style: normal;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 20px;
 	margin-top: 30px;
 }
 
 .stages__item-text {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 16px;
 	min-height: 210px;
-	margin-top: 40px;
+	margin-top: 20px;
 	max-width: 275px;
 }
 
@@ -1609,7 +1613,7 @@ projects__item-image {
 
 @media (max-width: 768px) {
 	.stages__title {
-		font-size: 30px;
+		font-size: 24px;
 	}
 
 	.stages__content {
@@ -1621,13 +1625,11 @@ projects__item-image {
 	}
 
 	.stages__item-title {
-		font-size: 24px;
 		margin-top: 0;
 	}
 
 	.stages__item-text {
-		font-size: 16px;
-		margin-top: 20px;
+		font-size: 14px;
 		min-height: 150px;
 	}
 }
@@ -1645,10 +1647,8 @@ projects__item-image {
 }
 
 .capabilities {
-	margin-top: 235px;
+	margin-top: 135px;
 	display: flex;
-	max-width: 1536px;
-	margin: 235px auto 0 auto;
 	flex-wrap: wrap;
 	padding: 0 28px 0 28px;
 }
@@ -1660,45 +1660,35 @@ projects__item-image {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-	padding: 40px 40px 105px 40px;
-}
-
-.capabilities__item:not(:first-child) {
+	padding: 30px;
 	margin-top: 50px;
+
 }
 
 .capabilities__item:not(:last-child) {
 	margin-right: 50px;
 }
 
-.capabilities__title-block {
-	height: 165px;
-}
 
 .capabilities__title {
 	font-style: normal;
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 30px;
 }
 
 .capabilities__text {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 24px;
 }
 
 .capabilities__image {
-	width: -webkit-fit-content;
-	width: -moz-fit-content;
-	width: fit-content;
-	margin: 50px auto 0 auto;
+	width: 100%;
+	margin: 20px auto;
+	max-width: 200px;
 }
 
 @media (max-width: 1430px) {
-	.capabilities__title {
-		font-size: 42px;
-	}
-
 	.capabilities__text {
 		font-size: 24px;
 	}
@@ -1721,9 +1711,6 @@ projects__item-image {
 }
 
 @media (max-width: 900px) {
-	.capabilities__title {
-		font-size: 32px;
-	}
 
 	.capabilities__text {
 		font-size: 24px;
@@ -1750,7 +1737,7 @@ projects__item-image {
 	}
 
 	.capabilities__title {
-		font-size: 30px;
+		font-size: 24px;
 	}
 
 	.capabilities__text {
@@ -1846,7 +1833,7 @@ projects__item-image {
 .txt-block__title {
 	font-style: normal;
 	font-weight: 700;
-	font-size: 36px;
+	font-size: 30px;
 	color: #181818;
 }
 
@@ -1867,7 +1854,7 @@ projects__item-image {
 	}
 
 	.txt-block__title {
-		font-size: 30px;
+		font-size: 24px;
 	}
 
 	.txt-block__text {
@@ -1875,10 +1862,13 @@ projects__item-image {
 	}
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
 	.txt-block__title {
-		font-size: 20px;
+		font-size: 16px;
 	}
+}
+
+@media (max-width: 425px) {
 
 	.txt-block__text {
 		font-size: 16px;
@@ -1894,7 +1884,7 @@ projects__item-image {
 
 .li-block__title {
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 30px;
 }
 
 .li-block__text {
@@ -1904,13 +1894,13 @@ projects__item-image {
 }
 
 .li-block__item {
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 400;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .li-block__item span {
-	font-size: 36px;
+	font-size: 24px;
 }
 
 @media (max-width: 1200px) {
@@ -1920,26 +1910,18 @@ projects__item-image {
 }
 
 @media (max-width: 768px) {
+
+
 	.li-block {
 		margin-top: 65px;
 	}
 
 	.li-block__title {
-		font-size: 36px;
-	}
-
-	.li-block__item {
-		font-size: 20px;
-	}
-
-	.li-block__item span {
 		font-size: 24px;
 	}
-}
 
-@media (max-width: 425px) {
-	.li-block__title {
-		font-size: 30px;
+	.li-block__text {
+		padding-left: 25px;
 	}
 
 	.li-block__item {
@@ -1948,6 +1930,20 @@ projects__item-image {
 
 	.li-block__item span {
 		font-size: 20px;
+	}
+}
+
+@media (max-width: 425px) {
+	.li-block__title {
+		font-size: 16px;
+	}
+
+	.li-block__item {
+		font-size: 14px;
+	}
+
+	.li-block__item span {
+		font-size: 16px;
 	}
 }
 
@@ -2018,7 +2014,7 @@ projects__item-image {
 
 .footer__projects-and-contacts-content {
 	float: right;
-	width: 195px;
+	max-width: 175px;
 }
 
 .footer__contacts-item {
