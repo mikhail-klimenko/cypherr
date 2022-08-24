@@ -1788,6 +1788,7 @@ projects__item-image {
 .footer__projects-and-contacts-content {
 	float: right;
 	max-width: 175px;
+	width: 100%;
 }
 
 .footer__contacts-item {
