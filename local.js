@@ -15,4 +15,17 @@ $('document').ready(function () {
         banners[currentSlide].classList.add("banner__number--active")
         $('.banner__number').not(banners[currentSlide]).removeClass('banner__number--active')
     })
+
+    // ВЫЗОВ МОДАЛКИ НА ЗАПРОС
+    $('.request-btn').on('click', function() {
+		$('.request-popup').addClass('request-popup--active')
+        $('body').addClass('no-overflow')
+	})
+	$('.request-popup__close').on('click', function() {
+		$('.request-popup').removeClass('request-popup--active')
+        $('body').removeClass('no-overflow')
+	})
+
+    // МАСКА ДЛЯ ВВОДА ТЕЛЕФОНА
+	$("#phone").mask("+7 (999) 999-9999");
 })
