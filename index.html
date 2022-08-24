@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script defer="defer" src="./slick/slick.min.js"></script>
+	<script defer="defer" src="./maskPlugin/jquery.maskedinput.js"></script>
+	<script defer="defer" src="./maskPlugin/jquery.maskedinput.min.js"></script>
 	<script defer="defer" src="global.js"></script>
 	<script defer="defer" src="local.js"></script>
 	<link href="./slick/slick.css" rel="stylesheet">
@@ -15,123 +17,169 @@
 </head>
 
 <body>
-	<div class="fixed-block">
-		<header class="header">
-			<div class="header__content">
-				<div class="header__container">
-					<div class="header__social"> <a class="header__social-item" href="tel:+7 (999) 521-91-01">
-							<img src="./images/white-phone-icon.svg" alt="white-phone-icon">
-						</a> <a class="header__social-item" href="">
-							<img src="./images/telegram-icon.svg" alt="telegram-icon">
-						</a>
-						<div class="header__social-item" href=""> info@cypherr.ru </div>
-					</div>
-					<a class="header__logo" href="">
-						<div class="header__logo-image"><img src="./images/logo-mini.svg" alt="logo-mini"></div>
-						<div class="header__logo-txt">Автоматицазия бизнеса</div>
+	<header class="header">
+		<div class="header__content">
+			<div class="header__container">
+				<div class="header__social"> <a class="header__social-item" href="tel:+7 (999) 521-91-01">
+						<img src="./images/white-phone-icon.svg" alt="white-phone-icon">
+					</a> <a class="header__social-item" href="">
+						<img src="./images/telegram-icon.svg" alt="telegram-icon">
 					</a>
-					<nav class="bold">
-						<ul class="header__menu">
-							<li class="header__menu-item">
-								<div class="header__mouse-connect"></div><a class="header__menu-title bold" href="">Сайты</a>
-								<ul class="drop-menu">
-									<li>
-										<a class="drop-menu__item" href="">
-											<div class="drop-menu__id bold">01</div>
-											<div class="drop-menu__title bold">Интернет-магазины</div>
-										</a>
-									</li>
-									<li>
-										<a class="drop-menu__item" href="">
-											<div class="drop-menu__id bold">02</div>
-											<div class="drop-menu__title bold">Корпоративные сайты</div>
-										</a>
-									</li>
-									<li>
-										<a class="drop-menu__item" href="">
-											<div class="drop-menu__id bold">03</div>
-											<div class="drop-menu__title bold">Лендинги</div>
-										</a>
-									</li>
-									<li>
-										<a class="drop-menu__item" href="">
-											<div class="drop-menu__id bold">04</div>
-											<div class="drop-menu__title bold">Шаблоны</div>
-										</a>
-									</li>
-								</ul>
-							</li><a class="header__menu-item bold" href="">Мобильные приложения </a><a
-								class="header__menu-item bold" href="">CRM</a><a class="header__menu-item bold" href="">Заказная
-								работа ПО</a><a class="header__menu-item bold" href="">UI/UX Дизайн</a>
-						</ul>
-					</nav>
-					<div class="header__burger">
-						<div class="header__burger-line"></div>
-						<div class="header__burger-line"></div>
-						<div class="header__burger-line"></div>
-					</div>
+					<div class="header__social-item" href=""> info@cypherr.ru </div>
+				</div>
+				<a class="header__logo" href="">
+					<div class="header__logo-image"><img src="./images/logo-mini.svg" alt="logo-mini"></div>
+					<div class="header__logo-txt">Автоматицазия бизнеса</div>
+				</a>
+				<nav class="bold">
+					<ul class="header__menu">
+						<li class="header__menu-item">
+							<div class="header__mouse-connect"></div><a class="header__menu-title bold" href="">Сайты</a>
+							<ul class="drop-menu">
+								<li>
+									<a class="drop-menu__item" href="">
+										<div class="drop-menu__id bold">01</div>
+										<div class="drop-menu__title bold">Интернет-магазины</div>
+									</a>
+								</li>
+								<li>
+									<a class="drop-menu__item" href="">
+										<div class="drop-menu__id bold">02</div>
+										<div class="drop-menu__title bold">Корпоративные сайты</div>
+									</a>
+								</li>
+								<li>
+									<a class="drop-menu__item" href="">
+										<div class="drop-menu__id bold">03</div>
+										<div class="drop-menu__title bold">Лендинги</div>
+									</a>
+								</li>
+								<li>
+									<a class="drop-menu__item" href="">
+										<div class="drop-menu__id bold">04</div>
+										<div class="drop-menu__title bold">Шаблоны</div>
+									</a>
+								</li>
+							</ul>
+						</li><a class="header__menu-item bold" href="">Мобильные приложения </a><a
+							class="header__menu-item bold" href="">CRM</a><a class="header__menu-item bold" href="">Заказная
+							работа ПО</a><a class="header__menu-item bold" href="">UI/UX Дизайн</a>
+					</ul>
+				</nav>
+				<div class="header__burger">
+					<div class="header__burger-line"></div>
+					<div class="header__burger-line"></div>
+					<div class="header__burger-line"></div>
 				</div>
 			</div>
-		</header>
-		<div class="header__burger-menu">
-			<div class=" __container">
-				<div class="header__burger-menu-content">
-					<div class="header__burger-menu-item">
-						<a class="header__burger-menu-item-txt" href="">
-							<div class="header__burger-menu-item-id bold">01</div>
-							<div class="header__burger-menu-item-title bold">Создание сайтов</div>
-						</a><a class="header__burger-menu-subtitle" href="">Интернет магазин</a><a
-							class="header__burger-menu-subtitle" href="">Корпоративный сайт</a><a
-							class="header__burger-menu-subtitle" href="">Лендинг</a><a class="header__burger-menu-subtitle"
-							href="">Шаблоны</a>
-					</div>
-					<div class="header__burger-menu-item">
-						<a class="header__burger-menu-item-txt" href="">
-							<div class="header__burger-menu-item-id bold">02</div>
-							<div class="header__burger-menu-item-title bold">Мобильные приложения</div>
-						</a>
-					</div>
-					<div class="header__burger-menu-item">
-						<a class="header__burger-menu-item-txt" href="">
-							<div class="header__burger-menu-item-id bold">03</div>
-							<div class="header__burger-menu-item-title bold">Внедрение CRM</div>
-						</a>
-					</div>
-					<div class="header__burger-menu-item">
-						<a class="header__burger-menu-item-txt" href="">
-							<div class="header__burger-menu-item-id bold">04</div>
-							<div class="header__burger-menu-item-title bold">Заказная разработка ПО</div>
-						</a>
-					</div>
-					<div class="header__burger-menu-item">
-						<a class="header__burger-menu-item-txt" href="">
-							<div class="header__burger-menu-item-id bold">05</div>
-							<div class="header__burger-menu-item-title bold">UI/UX Дизайн</div>
-						</a>
-					</div>
-					<div class="header__burger-menu-item">
-						<a class="header__burger-menu-item-txt" href="">
-							<div class="header__burger-menu-item-id bold">06</div>
-							<div class="header__burger-menu-item-title bold">Дополнительные Услуги</div>
-						</a><a class="header__burger-menu-subtitle" href="">SEO продвижение</a><a
-							class="header__burger-menu-subtitle" href="">Техподдержка</a><a
-							class="header__burger-menu-subtitle" href="">Сопровождение и развитие</a><a
-							class="header__burger-menu-subtitle" href="">Линцензирование</a><a
-							class="header__burger-menu-subtitle" href="">Аренда выделенных серверов и хостингов</a>
-					</div>
-					<div class="header__burger-menu-item">
-						<a class="header__burger-menu-item-txt" href="">
-							<div class="header__burger-menu-item-id bold">07</div>
-							<div class="header__burger-menu-item-title bold">Проекты</div>
-						</a>
-					</div>
-					<div class="header__burger-menu-item">
-						<a class="header__burger-menu-item-txt" href="">
-							<div class="header__burger-menu-item-id bold">08</div>
-							<div class="header__burger-menu-item-title bold">Контакты</div>
-						</a>
-					</div>
+		</div>
+	</header>
+	<div class="header__burger-menu">
+		<div class=" __container">
+			<div class="header__burger-menu-content">
+				<div class="header__burger-menu-item">
+					<a class="header__burger-menu-item-txt" href="">
+						<div class="header__burger-menu-item-id bold">01</div>
+						<div class="header__burger-menu-item-title bold">Создание сайтов</div>
+					</a><a class="header__burger-menu-subtitle" href="">Интернет магазин</a><a
+						class="header__burger-menu-subtitle" href="">Корпоративный сайт</a><a
+						class="header__burger-menu-subtitle" href="">Лендинг</a><a class="header__burger-menu-subtitle"
+						href="">Шаблоны</a>
 				</div>
+				<div class="header__burger-menu-item">
+					<a class="header__burger-menu-item-txt" href="">
+						<div class="header__burger-menu-item-id bold">02</div>
+						<div class="header__burger-menu-item-title bold">Мобильные приложения</div>
+					</a>
+				</div>
+				<div class="header__burger-menu-item">
+					<a class="header__burger-menu-item-txt" href="">
+						<div class="header__burger-menu-item-id bold">03</div>
+						<div class="header__burger-menu-item-title bold">Внедрение CRM</div>
+					</a>
+				</div>
+				<div class="header__burger-menu-item">
+					<a class="header__burger-menu-item-txt" href="">
+						<div class="header__burger-menu-item-id bold">04</div>
+						<div class="header__burger-menu-item-title bold">Заказная разработка ПО</div>
+					</a>
+				</div>
+				<div class="header__burger-menu-item">
+					<a class="header__burger-menu-item-txt" href="">
+						<div class="header__burger-menu-item-id bold">05</div>
+						<div class="header__burger-menu-item-title bold">UI/UX Дизайн</div>
+					</a>
+				</div>
+				<div class="header__burger-menu-item">
+					<a class="header__burger-menu-item-txt" href="">
+						<div class="header__burger-menu-item-id bold">06</div>
+						<div class="header__burger-menu-item-title bold">Дополнительные Услуги</div>
+					</a><a class="header__burger-menu-subtitle" href="">SEO продвижение</a><a
+						class="header__burger-menu-subtitle" href="">Техподдержка</a><a
+						class="header__burger-menu-subtitle" href="">Сопровождение и развитие</a><a
+						class="header__burger-menu-subtitle" href="">Линцензирование</a><a
+						class="header__burger-menu-subtitle" href="">Аренда выделенных серверов и хостингов</a>
+				</div>
+				<div class="header__burger-menu-item">
+					<a class="header__burger-menu-item-txt" href="">
+						<div class="header__burger-menu-item-id bold">07</div>
+						<div class="header__burger-menu-item-title bold">Проекты</div>
+					</a>
+				</div>
+				<div class="header__burger-menu-item">
+					<a class="header__burger-menu-item-txt" href="">
+						<div class="header__burger-menu-item-id bold">08</div>
+						<div class="header__burger-menu-item-title bold">Контакты</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="request-popup">
+		<div class="request-popup__block">
+			<div class="request-popup__close">
+				<div class="request-popup__close-btn">
+					<div class="request-popup__close-line"></div>
+					<div class="request-popup__close-line"></div>
+				</div>
+			</div>
+			<div class="request-popup__content">
+			<div class="request-popup__title bold">Обратная связь</div>
+				<form class="request-popup__form" action="textarea1.php" method="post">
+					<div class="request-popup__input-title">
+						Имя
+						<div class="request-input-error">
+							Какая-то ошибка
+						</div>
+					</div><input class="request-popup__input">
+					<div class="request-popup__input-title">
+						Номер телефона
+						<div class="request-input-error">
+							Какая-то ошибка
+						</div>
+					</div><input class="request-popup__input"
+						id="phone">
+					<div class="request-popup__input-title">
+						Е-mail
+						<div class="request-input-error">
+							Какая-то ошибка
+						</div>
+					</div><input class="request-popup__input">
+					<div class="request-popup__input-title">
+						Комментарий
+						<div class="request-input-error">
+							Какая-то ошибка
+						</div>
+					</div><textarea
+						class="request-popup__input"></textarea>
+					<div class="request-popup__btn-block"><img class="request-popup__btn-image"
+							src="./images/right-arrow-icon.svg" alt="right-arrow-icon"><input
+							class="request-popup__btn btn" type="submit" value="Отправить"></div>
+					<div class="request-popup__checkbox-block"><input type="checkbox" id="switch"><label
+							class="request-popup__label" for="switch">Toggle</label>
+						<div class="request-popup__checkbox-txt">Я согласен(a) на обработку персональных данных</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -153,7 +201,7 @@
 			<div class="banner__list">
 				<div class="banner__item">
 					<div class="banner__content __container">
-						<div class="banner__title bold">Разработка сайтов любой сложности</div>
+						<a href="#" class="banner__title bold">Разработка сайтов любой сложности</a>
 						<div class="banner__subtitle">
 							<a href="#">Интернет магазины</a>
 
@@ -175,7 +223,7 @@
 				</div>
 				<div class="banner__item">
 					<div class="banner__content __container">
-						<div class="banner__title bold">Разработка мобильных приложений</div>
+						<a href="#" class="banner__title bold">Разработка мобильных приложений</a>
 						<div class="banner__subtitle">
 							<a href="#">IOS и Android приложения, которые легко развивать и поддердивать</a>
 						</div>
@@ -185,7 +233,7 @@
 				</div>
 				<div class="banner__item">
 					<div class="banner__content __container">
-						<div class="banner__title bold">Внедрение CRM</div>
+						<a href="#" class="banner__title bold">Внедрение CRM</a>
 						<div class="banner__subtitle">
 							<a href="#">Сложные интерграции</a>
 						</div>
@@ -625,8 +673,8 @@
 					интернет-магазин? Уникальное приложение или CRM? Емкий корпоративный ресурс или работающий лэндинг
 					пейдж?
 					Cypherr уже знает, что вам предложить<br>Осталось только позвонить</div>
-				<div class="work-order__btn-block"><a class="work-order__btn bold" href="#">Заказать звонок<img
-							src="./images/right-arrow-icon.svg" alt="right-arrow-icon"></a></div>
+				<div class="work-order__btn-block"><div class="request-btn bold">Заказать звонок<img
+							src="./images/right-arrow-icon.svg" alt="right-arrow-icon"></div></div>
 			</div>
 		</div>
 		<div class="work-plan">
