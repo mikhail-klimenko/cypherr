@@ -462,6 +462,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	padding: 30px 10px;
 }
 
 .clients-and-partners__item-wrap:nth-child(1),
@@ -494,6 +495,7 @@
 	max-width: 220px;
 	font-size: 14px;
 	margin-top: 15px;
+	min-height: 50px;
 }
 
 @media (max-width: 1200px) {
