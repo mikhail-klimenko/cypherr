@@ -341,17 +341,19 @@
 	}
 
 	.benefits__section {
-		padding: 50px 28px;
+		padding: 40px 28px;
 	}
 
 	.benefits__text-block {
 		margin-right: 0;
+		max-width: 100%;
 	}
 
 
 	.benefits__content {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.benefits__image {
@@ -532,11 +534,15 @@
 
 }
 
-@media (max-width: 885px) {
+@media (max-width: 800px) {
 	.clients-and-partners__title {
 		font-size: 24px;
 		text-align: left;
 	}
+
+}
+
+@media (max-width: 885px) {
 
 	.clients-and-partners__frid-wrap {
 		grid-template-columns: repeat(2, 1fr);
