@@ -442,6 +442,12 @@
 	}
 }
 
+@media (max-width: 500px) {
+	.work-plan {
+		padding: 0 15px;
+	}
+}
+
 .clients-and-partners {
 	margin-top: 80px;
 	padding: 0 50;
@@ -588,6 +594,12 @@
 	}
 }
 
+@media (max-width: 500px) {
+	.clients-and-partners {
+		padding: 0 15px;
+	}
+}
+
 .certificates {
 	margin-top: 80px;
 	padding: 0 50px;
@@ -679,6 +691,12 @@
 @media (max-width: 500px) {
 	.certificates__title {
 		font-size: 16px;
+	}
+}
+
+@media (max-width: 500px) {
+	.certificates {
+		padding: 0 15px;
 	}
 }
 

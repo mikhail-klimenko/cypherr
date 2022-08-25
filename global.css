@@ -1229,7 +1229,7 @@ main {
 
 @media (max-width: 425px) {
 	.work-order {
-		padding: 30px 28px;
+		padding: 30px 15px;
 	}
 
 	.work-order__btn-block {
@@ -1468,7 +1468,7 @@ projects__item-image {
 	}
 
 	.projects__tab-content-list-wrap {
-		padding: 50px 28px;
+		padding: 30px 28px;
 	}
 
 	.projects__btn {
@@ -1562,6 +1562,13 @@ projects__item-image {
 	.projects__btn {
 		width: 190px;
 		font-size: 12px;
+	}
+}
+
+@media (max-width: 425px) {
+	.projects__tab-content-list-wrap {
+		padding: 0 15px;
+		padding-bottom: 30px;
 	}
 }
 
@@ -2246,5 +2253,12 @@ projects__item-image {
 	.footer {
 		padding-top: 35px;
 		padding-bottom: 55px;
+	}
+}
+
+@media (max-width: 450px) {
+	.footer {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
