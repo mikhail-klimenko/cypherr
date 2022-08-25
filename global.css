@@ -2002,7 +2002,7 @@ projects__item-image {
 
 .li-block__title {
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 32px;
 }
 
 .li-block__text {
@@ -2012,13 +2012,13 @@ projects__item-image {
 }
 
 .li-block__item {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
 	margin-top: 30px;
 }
 
 .li-block__item span {
-	font-size: 24px;
+	font-size: 22px;
 }
 
 @media (max-width: 1200px) {
@@ -2044,11 +2044,11 @@ projects__item-image {
 	}
 
 	.li-block__item {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.li-block__item span {
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
 
@@ -2058,11 +2058,11 @@ projects__item-image {
 	}
 
 	.li-block__item {
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	.li-block__item span {
-		font-size: 16px;
+		font-size: 14px;
 	}
 }
 
