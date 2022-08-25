@@ -27,30 +27,29 @@ $('document').ready(function () {
 })
 
 //projects tabs
-const tabsItems = Array.from(document.querySelectorAll('.projects__tab-item'))
-const contentItems = Array.from(document.querySelectorAll('.projects__tab-content-item'))
+if (document.querySelectorAll('.projects__tab-item') != null && document.querySelectorAll('.projects__tab-content-item') != null) {
+	const tabsItems = Array.from(document.querySelectorAll('.projects__tab-item'))
+	const contentItems = Array.from(document.querySelectorAll('.projects__tab-content-item'))
 
-const setActiveClass = (element, index, className = 'active') => {
-	element[index].classList.add(`${className}`)
+	const setActiveClass = (element, index, className = 'active') => {
+		element[index].classList.add(`${className}`)
+	}
+
+	const clearActiveClass = (element, className = 'active') => {
+		element.find(item => item.classList.remove(`${className}`))
+	}
+
+	const checkoutTabs = (item, index) => {
+		item.addEventListener('click', () => {
+
+			if (item.classList.contains('active')) return
+			clearActiveClass(tabsItems)
+			clearActiveClass(contentItems)
+
+			setActiveClass(tabsItems, index)
+			setActiveClass(contentItems, index)
+		})
+	}
+	tabsItems.forEach(checkoutTabs)
 }
 
-const clearActiveClass = (element, className = 'active') => {
-	element.find(item => item.classList.remove(`${className}`))
-}
-
-const checkoutTabs = (item, index) => {
-	item.addEventListener('click', () => {
-
-		if (item.classList.contains('active')) return
-		console.log(item)
-
-		clearActiveClass(tabsItems)
-		clearActiveClass(contentItems)
-
-
-		setActiveClass(tabsItems, index)
-		setActiveClass(contentItems, index)
-	})
-}
-
-tabsItems.forEach(checkoutTabs)
