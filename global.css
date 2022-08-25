@@ -1699,9 +1699,12 @@ projects__item-image {
 
 .capabilities {
 	margin-top: 135px;
+	padding: 0 28px 0 28px;
+}
+
+.capabilities__container {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 28px 0 28px;
 }
 
 .capabilities__item {
@@ -1733,11 +1736,12 @@ projects__item-image {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
+	margin-top: 15px;
 }
 
 .capabilities__image {
 	width: 100%;
-	margin: 20px auto;
+	margin: 40px auto 0 auto;
 	max-width: 200px;
 }
 
@@ -1893,7 +1897,7 @@ projects__item-image {
 }
 
 .txt-block__text {
-	font-size: 30px;
+	font-size: 24px;
 	margin-top: 60px;
 }
 
@@ -1919,7 +1923,7 @@ projects__item-image {
 
 @media (max-width: 500px) {
 	.txt-block__title {
-		font-size: 16px;
+		font-size: 20px;
 	}
 }
 
