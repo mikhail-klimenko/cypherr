@@ -1840,6 +1840,8 @@ projects__item-image {
 .services__image {
 	position: absolute;
 	margin-top: 10px;
+	top: 11%;
+	left: 0px;
 }
 
 .services__info {
@@ -1882,6 +1884,7 @@ projects__item-image {
 
 .services__btn {
 	margin-top: 75px;
+	z-index: 2;
 }
 
 .txt-block {
@@ -1899,6 +1902,13 @@ projects__item-image {
 .txt-block__text {
 	font-size: 24px;
 	margin-top: 60px;
+}
+
+@media (max-width: 1610px) {
+	.services__image {
+		top: 11%;
+		left: 0px;
+	}
 }
 
 @media (max-width: 1200px) {

@@ -1,0 +1,5 @@
+.banner__item {
+	background: url(../images/mobile_applications_banner.png) no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
