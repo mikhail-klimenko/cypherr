@@ -3,7 +3,7 @@
 }
 
 .development-stages {
-	margin-top: 60px;
+	margin-top: 80px;
 }
 
 .development-stages__title {
@@ -97,7 +97,7 @@
 
 @media (max-width: 1200px) {
 	.development-stages {
-		margin-top: 40px;
+		margin-top: 45px;
 	}
 }
 
@@ -113,7 +113,7 @@
 	}
 
 	.development-stages__item {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 }
 
@@ -169,7 +169,7 @@
 	}
 
 	.development-stages {
-		margin-top: 30px;
+		margin-top: 25px;
 	}
 
 	.development-stages__info {
@@ -194,7 +194,7 @@
 }
 
 .benefits {
-	margin-top: 60px;
+	margin-top: 80px;
 }
 
 .benefits__section {
@@ -281,7 +281,7 @@
 
 @media (max-width: 1200px) {
 	.benefits {
-		margin-top: 40px;
+		margin-top: 45px;
 	}
 
 	.benefits__content span {
@@ -337,7 +337,7 @@
 
 @media (max-width: 768px) {
 	.benefits {
-		margin-top: 30px;
+		margin-top: 25px;
 	}
 
 	.benefits__section {
@@ -362,7 +362,7 @@
 
 @media (max-width: 425px) {
 	.benefits__section {
-		padding: 50px 15px;
+		padding: 35px 15px;
 	}
 
 	.benefits__content span {
@@ -403,13 +403,13 @@
 
 @media (max-width: 1200px) {
 	.work-plan {
-		margin-top: 60px;
+		margin-top: 45px;
 	}
 }
 
 @media (max-width: 768px) {
 	.work-plan {
-		margin-top: 40px;
+		margin-top: 25px;
 		padding: 0 28px;
 	}
 
@@ -441,7 +441,7 @@
 }
 
 .clients-and-partners {
-	margin-top: 235px;
+	margin-top: 80px;
 	padding: 0 50;
 }
 
@@ -500,7 +500,7 @@
 
 @media (max-width: 1200px) {
 	.clients-and-partners {
-		margin-top: 135px;
+		margin-top: 45px;
 	}
 }
 
@@ -563,7 +563,7 @@
 	}
 
 	.clients-and-partners {
-		margin-top: 80px;
+		margin-top: 25px;
 		padding: 0 28px;
 	}
 
@@ -583,7 +583,7 @@
 }
 
 .certificates {
-	margin-top: 235px;
+	margin-top: 80px;
 	padding: 0 50px;
 }
 
@@ -640,7 +640,7 @@
 
 @media (max-width: 1200px) {
 	.certificates {
-		margin-top: 135px;
+		margin-top: 45px;
 	}
 }
 
@@ -661,6 +661,7 @@
 
 @media (max-width: 768px) {
 	.certificates {
+		margin-top: 25px;
 		padding: 0 28px;
 	}
 

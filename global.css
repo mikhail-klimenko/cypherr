@@ -1161,9 +1161,8 @@ main {
 
 .work-order {
 	background: #181818;
-	padding: 135px 28px;
+	padding: 50px 28px;
 	color: #fff;
-	margin-top: 235px;
 }
 
 .work-order__title {
@@ -1196,16 +1195,11 @@ main {
 
 @media (max-width: 1200px) {
 	.work-order {
-		padding: 65px 28px;
-		margin-top: 135px;
+		padding: 45px 28px;
 	}
 }
 
 @media (max-width: 768px) {
-	.work-order {
-		margin-top: 65px;
-	}
-
 	.work-order__title {
 		font-size: 18px;
 	}
@@ -1236,7 +1230,7 @@ main {
 }
 
 .projects {
-	margin-top: 60px;
+	margin-top: 80px;
 }
 
 .projects__container {
@@ -1399,7 +1393,7 @@ projects__item-image {
 
 @media (max-width: 1200px) {
 	.projects {
-		margin-top: 40px;
+		margin-top: 45px;
 	}
 
 	.projects__item {
@@ -1428,7 +1422,7 @@ projects__item-image {
 
 @media (max-width: 768px) {
 	.projects {
-		margin-top: 30px;
+		margin-top: 25px;
 	}
 
 	.projects__mobail-tab-list {
@@ -2010,7 +2004,7 @@ projects__item-image {
 .footer {
 	background: #181818;
 	padding: 90px 40px 100px 40px;
-	margin-top: 235px;
+	margin-top: 80px;
 	color: #fff;
 }
 
@@ -2129,7 +2123,7 @@ projects__item-image {
 @media (max-width: 1200px) {
 	.footer {
 		padding: 65px 28px;
-		margin-top: 135px;
+		margin-top: 45px;
 	}
 }
 
@@ -2145,7 +2139,7 @@ projects__item-image {
 
 @media (max-width: 768px) {
 	.footer {
-		margin-top: 65px;
+		margin-top: 25px;
 	}
 
 	.footer__content>* {
