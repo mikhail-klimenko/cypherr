@@ -1774,15 +1774,17 @@ projects__item-image {
     max-width: 160px;
 }
 
-@media (max-width: 1430px) {
-	.capabilities__text {
-		font-size: 24px;
-	}
-}
-
 @media (max-width: 1200px) {
 	.capabilities {
 		margin-top: 45px;
+	}
+
+	.capabilities__title {
+		font-size: 20px;
+	}
+
+	.capabilities__text {
+		font-size: 14px;
 	}
 }
 
@@ -1801,35 +1803,9 @@ projects__item-image {
 
 @media (max-width: 800px) {
 	.capabilities {
-		margin-top: -10px;
+		display: none;
 	}
 }
-
-@media (max-width: 768px) {
-
-	.capabilities__item {
-		width: 100%;
-		margin-right: 0 !important;
-		padding-bottom: 40px;
-	}
-
-	.capabilities__item:not(:first-child) {
-		margin-top: 40px;
-	}
-
-	.capabilities__title-block {
-		height: 100px;
-	}
-
-	.capabilities__title {
-		font-size: 24px;
-	}
-
-	.capabilities__text {
-		font-size: 20px;
-	}
-}
-
 
 .services {
 	margin-top: 80px;
@@ -1943,6 +1919,14 @@ projects__item-image {
 
 	.txt-block {
 		margin-top: 45px;
+	}
+
+	.txt-block__title {
+		font-size: 24px;
+	}
+	
+	.txt-block__text {
+		font-size: 18px;
 	}
 }
 
