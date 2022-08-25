@@ -3,8 +3,6 @@ $('document').ready(function () {
 	$('.banner__list').slick({
 		prevArrow: '.banner__previous',
 		nextArrow: '.banner__next',
-		autoplay: true,
-		autoplaySpeed: 4000,
 	});
 
 	// ДОБАВЛЕНИЕ И УДАЛЕНИЕ АКТИВНОГО КЛАССА ДЛЯ НОМЕРА СЛАЙДЕРА
