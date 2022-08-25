@@ -97,7 +97,7 @@
 
 @media (max-width: 1200px) {
 	.development-stages {
-		margin-top: 60px;
+		margin-top: 45px;
 	}
 }
 
@@ -113,15 +113,11 @@
 	}
 
 	.development-stages__item {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 }
 
 @media (max-width: 880px) {
-	.development-stages {
-		margin-top: 40px;
-	}
-
 	.development-stages__title {
 		font-size: 24px;
 	}
@@ -173,7 +169,7 @@
 	}
 
 	.development-stages {
-		margin-top: 30px;
+		margin-top: 25px;
 	}
 
 	.development-stages__info {
@@ -285,12 +281,7 @@
 
 @media (max-width: 1200px) {
 	.benefits {
-		margin-top: 60px;
-	}
-
-	.benefits__section {
-		padding: 60px 50px;
-
+		margin-top: 45px;
 	}
 
 	.benefits__content span {
@@ -331,20 +322,9 @@
 }
 
 @media (max-width: 800px) {
-
-	.benefits {
-		margin-top: 40px;
-	}
-
 	.benefits__text-block p:not(:first-child) {
 		margin-top: 10px;
 	}
-
-
-	.benefits__section {
-		padding: 40px 50px;
-	}
-
 
 	.benefits__section:nth-child(2)>.benefits__content {
 		font-size: 14px;
@@ -357,7 +337,7 @@
 
 @media (max-width: 768px) {
 	.benefits {
-		margin-top: 30px;
+		margin-top: 25px;
 	}
 
 	.benefits__section {
@@ -383,6 +363,9 @@
 }
 
 @media (max-width: 425px) {
+	.benefits__section {
+		padding: 35px 15px;
+	}
 
 	.benefits__content span {
 		margin-top: 20px;
@@ -422,13 +405,13 @@
 
 @media (max-width: 1200px) {
 	.work-plan {
-		margin-top: 60px;
+		margin-top: 45px;
 	}
 }
 
 @media (max-width: 768px) {
 	.work-plan {
-		margin-top: 40px;
+		margin-top: 25px;
 		padding: 0 28px;
 	}
 
@@ -460,7 +443,7 @@
 }
 
 .clients-and-partners {
-	margin-top: 235px;
+	margin-top: 80px;
 	padding: 0 50;
 }
 
@@ -519,7 +502,7 @@
 
 @media (max-width: 1200px) {
 	.clients-and-partners {
-		margin-top: 135px;
+		margin-top: 45px;
 	}
 }
 
@@ -586,7 +569,7 @@
 	}
 
 	.clients-and-partners {
-		margin-top: 80px;
+		margin-top: 25px;
 		padding: 0 28px;
 	}
 
@@ -606,7 +589,7 @@
 }
 
 .certificates {
-	margin-top: 235px;
+	margin-top: 80px;
 	padding: 0 50px;
 }
 
@@ -663,7 +646,7 @@
 
 @media (max-width: 1200px) {
 	.certificates {
-		margin-top: 135px;
+		margin-top: 45px;
 	}
 }
 
@@ -684,6 +667,7 @@
 
 @media (max-width: 768px) {
 	.certificates {
+		margin-top: 25px;
 		padding: 0 28px;
 	}
 

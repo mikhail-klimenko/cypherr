@@ -934,25 +934,13 @@ main {
 .banner__image {
 	position: absolute;
 	z-index: 0;
-	right: 0%;
+	right: 20%;
 	top: 5%;
+	width: 25%;
 }
 
 .banner__image img {
-	width: 85%;
-}
-
-.banner__image--second {
-	right: 0%;
-	top: 14%;
-}
-
-.banner__image--second img {
-	width: 70%;
-}
-
-.banner__image--away {
-	right: 10%;
+	width: 100%;
 }
 
 .banner .slick-prev,
@@ -967,66 +955,71 @@ main {
 	font-size: 60px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1700px) {
 	.banner__image--second {
 		right: 0%;
-		top: 25%;
-	}
-
-	.banner__image--second img {
-		width: 55%;
+		top: 0%;
+		width: 30%;
 	}
 }
 
-@media (max-width: 1400px) {
-	.banner__image--third {
-		right: 0%;
+@media (max-width: 1440px) {
+	.banner__image {
+		width: 30%;
 	}
+
+	.banner__image--second {
+		top: 15%;
+	}
+
 }
 
 @media (max-width: 1170px) {
 	.banner__image {
-		right: -10%;
+		width: 40%;
+		right: 5%;
 	}
-}
 
-@media (max-width: 1100px) {
-	.banner__image--third img {
-		width: 70%;
+	.banner__image--second {
+		width: 27%;
+		top: 30%;
 	}
 }
 
 @media (max-width: 1024px) {
+	.banner__image {
+		top: 10%;
+	}
+
 	.banner__image--second {
-		top: 35% !important;
-	}
-
-	.banner__image--second img {
-		width: 45% !important;
-	}
-
-	.banner__image--third {
-		right: -25%;
+		width: 27%;
 		top: 30%;
 	}
 
-	.banner__image--third img {
-		width: 60% !important;
-	}
-}
-
-@media (max-width: 990px) {
 	.banner__image--third {
-		right: -5% !important;
-		top: 44% !important;
-	}
-
-	.banner__image--third img {
-		width: 50% !important;
+		width: 30%;
+		top: 10%;
 	}
 }
 
 @media (max-width: 880px) {
+	.banner__image {
+		width: 23%;
+		right: 22%;
+	}
+
+	.banner__image--second {
+		right: 27%;
+		top: 28%;
+		width: 19%;
+	}
+
+	.banner__image--third {
+		right: 10%;
+		width: 26%;
+		top: 0%;
+	}
+
 	.banner__content .work-order__btn-block .request-btn {
 		padding: 8px;
 		font-size: 14px;
@@ -1058,32 +1051,6 @@ main {
 	.banner__item {
 		height: 360px !important;
 	}
-
-	.banner__image {
-		right: -10%;
-		top: 13%;
-	}
-
-	.banner__image img {
-		width: 42%;
-	}
-
-	.banner__image--second {
-		top: 30% !important;
-	}
-
-	.banner__image--second img {
-		width: 35% !important;
-	}
-
-	.banner__image--third {
-		right: -15% !important;
-		top: 5% !important;
-	}
-
-	.banner__image--third img {
-		width: 45% !important;
-	}
 }
 
 @media (max-width: 768px) {
@@ -1092,7 +1059,17 @@ main {
 	}
 
 	.banner__image {
-		right: -15%;
+		width: 140px;
+	}
+
+	.banner__image--second {
+		right: 10%;
+		top: 28%;
+	}
+
+	.banner__image--third {
+		right: 10%;
+		width: 28%;
 	}
 
 	.banner__item {
@@ -1102,47 +1079,6 @@ main {
 	.banner__switcher {
 		left: 28px;
 	}
-
-	.banner__image--third {
-		right: -10% !important;
-	}
-}
-
-@media (max-width: 700px) {
-
-	.banner__image--third {
-		right: -30% !important;
-	}
-}
-
-@media (max-width: 650px) {
-	.banner__image {
-		top: 15%;
-		right: -30%;
-	}
-
-	.banner__image--second {
-		top: 40% !important;
-	}
-
-	.banner__image--second img {
-		width: 30% !important;
-	}
-
-	.banner__image--third {
-		right: -40% !important;
-	}
-
-	.banner__image--third img {
-		width: 40% !important;
-	}
-}
-
-
-@media (max-width: 600px) {
-	.banner__image--third {
-		right: -45% !important;
-	}
 }
 
 @media (max-width: 550px) {
@@ -1150,10 +1086,21 @@ main {
 		width: 100%;
 		top: -85% !important;
 		position: absolute;
+		display: flex;
+		justify-content: center;
 	}
 
 	.banner__image {
 		position: static;
+	}
+
+	.banner__image--third {
+		width: 140px;
+	}
+
+	.banner__image img {
+		width: 100% !important;
+		height: 190px !important;
 	}
 
 	.banner__content .work-order__btn-block {
@@ -1184,11 +1131,6 @@ main {
 		right: calc(50% - 68.5px) !important;
 	}
 
-	.banner__image img {
-		width: 100% !important;
-		height: 190px !important;
-	}
-
 	.banner__title {
 		font-size: 16px;
 	}
@@ -1214,10 +1156,6 @@ main {
 
 	.banner__number:not(:last-child) {
 		margin-right: 50px;
-	}
-
-	.banner__image--third {
-		right: 18% !important;
 	}
 }
 
@@ -2115,7 +2053,7 @@ projects__item-image {
 .footer {
 	background: #181818;
 	padding: 90px 40px 100px 40px;
-	margin-top: 235px;
+	margin-top: 80px;
 	color: #fff;
 }
 
@@ -2234,7 +2172,7 @@ projects__item-image {
 @media (max-width: 1200px) {
 	.footer {
 		padding: 65px 28px;
-		margin-top: 135px;
+		margin-top: 45px;
 	}
 }
 
@@ -2250,7 +2188,7 @@ projects__item-image {
 
 @media (max-width: 768px) {
 	.footer {
-		margin-top: 65px;
+		margin-top: 25px;
 	}
 
 	.footer__content>* {

@@ -1,5 +1,13 @@
 .banner__item {
-	background: url(../images/mobile_applications_banner.png) no-repeat;
-	background-size: cover;
-	background-position: bottom;
+  background: url(../images/mobile_applications_banner.png) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 20px 50px 0 50px;
+}
+
+@media (max-width: 550px) {
+  .banner__item {
+    padding-top: 220px;
+    height: 450px !important;
+  }
 }
