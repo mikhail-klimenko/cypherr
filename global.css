@@ -1915,6 +1915,10 @@ projects__item-image {
 	z-index: 2;
 }
 
+.txt-block__content {
+	padding: 0 28px;
+}
+
 .txt-block {
 	margin-top: 80px;
 }
