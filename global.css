@@ -1729,7 +1729,7 @@ projects__item-image {
 
 @media (max-width: 425px) {
 	.stages {
-		padding: 30px 28px;
+		padding: 30px 15px;
 	}
 }
 
@@ -1958,6 +1958,12 @@ projects__item-image {
 	}
 }
 
+@media (max-width: 425px) {
+	.txt-block__content {
+		padding: 0 15px;
+	}
+}
+
 .li-block__content {
 	padding: 0 28px;
 }
@@ -2030,6 +2036,10 @@ projects__item-image {
 
 	.li-block__item span {
 		font-size: 14px;
+	}
+
+	.li-block__content {
+		padding: 0 15px;
 	}
 }
 
@@ -2256,7 +2266,7 @@ projects__item-image {
 	}
 }
 
-@media (max-width: 450px) {
+@media (max-width: 425px) {
 	.footer {
 		padding-left: 15px;
 		padding-right: 15px;

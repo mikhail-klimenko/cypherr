@@ -98,4 +98,8 @@
 	.integration__title {
 		font-size: 20px;
 	}
+
+	.integration {
+		padding: 20px 15px;
+	}
 }

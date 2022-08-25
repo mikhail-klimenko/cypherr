@@ -183,13 +183,9 @@
 	}
 }
 
-@media (max-width: 450px) {
-	.development-stages__item-title {
-		font-size: 14px;
-	}
-
-	.development-stages__list-item {
-		font-size: 12px;
+@media (max-width: 425px) {
+	.development-stages__content {
+		padding: 0 15px;
 	}
 }
 
