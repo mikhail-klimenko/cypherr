@@ -1617,14 +1617,13 @@ projects__item-image {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
-	margin-top: 30px;
 }
 
 .stages__item-text {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	min-height: 210px;
+	min-height: 100px;
 	margin-top: 20px;
 	max-width: 275px;
 }
@@ -1697,7 +1696,6 @@ projects__item-image {
 
 	.stages__item-text {
 		font-size: 14px;
-		min-height: 150px;
 	}
 }
 
@@ -1705,6 +1703,22 @@ projects__item-image {
 @media (max-width: 655px) {
 	.stages__item {
 		width: 100%;
+	}
+	.stages__item-text {
+		min-height: 60px;
+		max-width: 380px;
+	}
+
+	.stages__item {
+		margin-top: 20px;
+	}
+
+	.stages__item:not(:last-child) {
+		margin-right: 0px;
+	}
+
+	.stages__content {
+		margin-top: 0px;
 	}
 }
 
@@ -1932,7 +1946,7 @@ projects__item-image {
 	}
 
 	.txt-block {
-		margin-top: 60px;
+		margin-top: 45px;
 	}
 }
 
@@ -1944,7 +1958,7 @@ projects__item-image {
 	}
 
 	.txt-block {
-		margin-top: 40px;
+		margin-top: 25px;
 	}
 }
 
@@ -1952,7 +1966,6 @@ projects__item-image {
 
 	.txt-block {
 		padding: 0 28px;
-
 	}
 
 	.txt-block__title {
