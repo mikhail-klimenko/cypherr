@@ -21,12 +21,12 @@
 
 .integration__title {
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 32px;
 }
 
 .integration__text {
 	font-weight: 400;
-	font-size: 32px;
+	font-size: 26px;
 	margin-top: 45px;
 }
 
@@ -84,11 +84,11 @@
 
 
 	.integration__title {
-		font-size: 28px;
+		font-size: 18px;
 	}
 
 	.integration__text {
-		font-size: 22px;
+		font-size: 14px;
 		margin-top: 30px;
 	}
 }
@@ -96,11 +96,6 @@
 @media (max-width: 425px) {
 
 	.integration__title {
-		font-size: 24px;
-	}
-
-	.integration__text {
-		font-size: 16px;
-		margin-top: 20px;
+		font-size: 20px;
 	}
 }
