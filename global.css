@@ -1968,10 +1968,6 @@ projects__item-image {
 
 @media (max-width: 768px) {
 
-	.txt-block {
-		padding: 0 28px;
-	}
-
 	.txt-block__title {
 		font-size: 24px;
 	}
