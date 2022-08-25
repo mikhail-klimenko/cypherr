@@ -1435,7 +1435,7 @@ projects__item-image {
 	}
 
 	.projects__title {
-		font-style: 20px;
+		font-size: 20px;
 	}
 }
 
@@ -1529,7 +1529,7 @@ projects__item-image {
 	}
 
 	.projects__title {
-		font-style: 16px;
+		font-size: 16px;
 	}
 
 }
@@ -1573,8 +1573,6 @@ projects__item-image {
 }
 
 .stages__title {
-	font-family: 'Marck Script', cursiveBold;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 30px;
 }
