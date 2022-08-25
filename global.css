@@ -2003,7 +2003,7 @@ projects__item-image {
 
 .footer {
 	background: #181818;
-	padding: 90px 40px 100px 40px;
+	padding: 70px 40px 100px 40px;
 	margin-top: 80px;
 	color: #fff;
 }
@@ -2122,7 +2122,7 @@ projects__item-image {
 
 @media (max-width: 1200px) {
 	.footer {
-		padding: 65px 28px;
+		padding: 50px 28px;
 		margin-top: 45px;
 	}
 }
