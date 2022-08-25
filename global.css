@@ -1991,8 +1991,11 @@ projects__item-image {
 	}
 }
 
-.li-block {
+.li-block__content {
 	padding: 0 28px;
+}
+
+.li-block {
 	list-style: circle;
 	margin-top: 80px;
 }
