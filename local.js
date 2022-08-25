@@ -3,8 +3,6 @@ $('document').ready(function () {
     $('.banner__list').slick({
         prevArrow: '.banner__previous',
         nextArrow: '.banner__next',
-        autoplay: true,
-        autoplaySpeed: 4000,
     });
 
     // ДОБАВЛЕНИЕ И УДАЛЕНИЕ АКТИВНОГО КЛАССА ДЛЯ НОМЕРА СЛАЙДЕРА
@@ -27,5 +25,5 @@ $('document').ready(function () {
 	})
 
     // МАСКА ДЛЯ ВВОДА ТЕЛЕФОНА
-	$("#phone").mask("+7 (999) 999-9999");
+	$("#phone-number").mask("+7 (999) 999-9999");
 })
