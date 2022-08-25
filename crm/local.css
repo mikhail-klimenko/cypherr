@@ -1,6 +1,6 @@
 .integration {
-	margin-top: 235px;
-	padding: 135px 28px 290px;
+	margin-top: 80px;
+	padding: 80px 28px 300px;
 	background: #181818;
 	color: #fff;
 }
@@ -58,8 +58,8 @@
 
 @media (max-width: 1200px) {
 	.integration {
-		margin-top: 135px;
-		padding: 65px 28px;
+		margin-top: 60px;
+		padding: 60px 28px;
 	}
 
 	.integration__text-block {
@@ -71,10 +71,15 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	.integration {
-		margin-top: 65px;
+		margin-top: 40px;
+		padding: 40px 28px;
 	}
+}
+
+@media (max-width: 768px) {
+
 
 	.integration__title {
 		font-size: 28px;
@@ -87,9 +92,6 @@
 }
 
 @media (max-width: 425px) {
-	.integration {
-		padding: 30px 28px;
-	}
 
 	.integration__title {
 		font-size: 24px;
