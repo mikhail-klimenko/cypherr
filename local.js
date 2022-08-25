@@ -26,6 +26,6 @@ $('document').ready(function () {
 		$('body').removeClass('no-overflow')
 	})
 
-	// МАСКА ДЛЯ ВВОДА ТЕЛЕФОНА
-	$("#phone").mask("+7 (999) 999-9999");
+    // МАСКА ДЛЯ ВВОДА ТЕЛЕФОНА
+	$("#phone-number").mask("+7 (999) 999-9999");
 })

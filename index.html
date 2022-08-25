@@ -10,11 +10,11 @@
 	<script defer="defer" src="./maskPlugin/jquery.maskedinput.min.js"></script>
 	<script defer="defer" src="global.js"></script>
 	<script defer="defer" src="local.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href="./slick/slick.css" rel="stylesheet">
 	<link href="./slick/slick-theme.css" rel="stylesheet">
 	<link href="global.css" rel="stylesheet">
-	<link href="local.css" rel="stylesheet">
-</head>
+	<link href="local.css" rel="stylesheet"> </head>
 
 <body>
 	<header class="header">
@@ -29,7 +29,7 @@
 				</div>
 				<a class="header__logo" href="">
 					<div class="header__logo-image"><img src="./images/logo-mini.svg" alt="logo-mini"></div>
-					<div class="header__logo-txt">Автоматицазия бизнеса</div>
+					<div class="header__logo-txt"><h1>Автоматизация бизнеса</h1></div>
 				</a>
 				<nav class="bold">
 					<ul class="header__menu">
@@ -54,16 +54,12 @@
 										<div class="drop-menu__title bold">Лендинги</div>
 									</a>
 								</li>
-								<li>
-									<a class="drop-menu__item" href="">
-										<div class="drop-menu__id bold">04</div>
-										<div class="drop-menu__title bold">Шаблоны</div>
-									</a>
-								</li>
 							</ul>
-						</li><a class="header__menu-item bold" href="">Мобильные приложения </a><a
-							class="header__menu-item bold" href="">CRM</a><a class="header__menu-item bold" href="">Заказная
-							работа ПО</a><a class="header__menu-item bold" href="">UI/UX Дизайн</a>
+						</li>
+						<a class="header__menu-item bold" href="">Мобильные приложения </a>
+						<a class="header__menu-item bold" href="">CRM</a>
+						<a class="header__menu-item bold" href="">Заказная работа ПО</a>
+						<a class="header__menu-item bold" href="">UI/UX Дизайн</a> 
 					</ul>
 				</nav>
 				<div class="header__burger">
@@ -81,10 +77,10 @@
 					<a class="header__burger-menu-item-txt" href="">
 						<div class="header__burger-menu-item-id bold">01</div>
 						<div class="header__burger-menu-item-title bold">Создание сайтов</div>
-					</a><a class="header__burger-menu-subtitle" href="">Интернет магазин</a><a
-						class="header__burger-menu-subtitle" href="">Корпоративный сайт</a><a
-						class="header__burger-menu-subtitle" href="">Лендинг</a><a class="header__burger-menu-subtitle"
-						href="">Шаблоны</a>
+					</a>
+					<a class="header__burger-menu-subtitle" href="">Интернет магазин</a>
+					<a class="header__burger-menu-subtitle" href="">Корпоративный сайт</a>
+					<a class="header__burger-menu-subtitle" href="">Лендинг</a>
 				</div>
 				<div class="header__burger-menu-item">
 					<a class="header__burger-menu-item-txt" href="">
@@ -101,35 +97,7 @@
 				<div class="header__burger-menu-item">
 					<a class="header__burger-menu-item-txt" href="">
 						<div class="header__burger-menu-item-id bold">04</div>
-						<div class="header__burger-menu-item-title bold">Заказная разработка ПО</div>
-					</a>
-				</div>
-				<div class="header__burger-menu-item">
-					<a class="header__burger-menu-item-txt" href="">
-						<div class="header__burger-menu-item-id bold">05</div>
-						<div class="header__burger-menu-item-title bold">UI/UX Дизайн</div>
-					</a>
-				</div>
-				<div class="header__burger-menu-item">
-					<a class="header__burger-menu-item-txt" href="">
-						<div class="header__burger-menu-item-id bold">06</div>
-						<div class="header__burger-menu-item-title bold">Дополнительные Услуги</div>
-					</a><a class="header__burger-menu-subtitle" href="">SEO продвижение</a><a
-						class="header__burger-menu-subtitle" href="">Техподдержка</a><a class="header__burger-menu-subtitle"
-						href="">Сопровождение и развитие</a><a class="header__burger-menu-subtitle"
-						href="">Линцензирование</a><a class="header__burger-menu-subtitle" href="">Аренда выделенных серверов
-						и хостингов</a>
-				</div>
-				<div class="header__burger-menu-item">
-					<a class="header__burger-menu-item-txt" href="">
-						<div class="header__burger-menu-item-id bold">07</div>
 						<div class="header__burger-menu-item-title bold">Проекты</div>
-					</a>
-				</div>
-				<div class="header__burger-menu-item">
-					<a class="header__burger-menu-item-txt" href="">
-						<div class="header__burger-menu-item-id bold">08</div>
-						<div class="header__burger-menu-item-title bold">Контакты</div>
 					</a>
 				</div>
 			</div>
@@ -147,34 +115,19 @@
 				<div class="request-popup__title bold">Обратная связь</div>
 				<form class="request-popup__form" action="textarea1.php" method="post">
 					<div class="request-popup__input-title">
-						Имя
-						<div class="request-input-error hide">
-							Какая-то ошибка
-						</div>
-					</div><input class="request-popup__input">
+						<div class="request-input-error hide"> Какая-то ошибка </div>
+					</div> <input placeholder="Имя*" name="name" id="name" class="request-popup__input">
 					<div class="request-popup__input-title">
-						Номер телефона
-						<div class="request-input-error hide">
-							Какая-то ошибка
-						</div>
-					</div><input class="request-popup__input" id="phone">
+						<div class="request-input-error hide"> Какая-то ошибка </div>
+					</div> <input placeholder="Телефон*" name="phone-number" id="phone-number" class="request-popup__input">
 					<div class="request-popup__input-title">
-						Е-mail
-						<div class="request-input-error hide">
-							Какая-то ошибка
-						</div>
-					</div><input class="request-popup__input">
+						<div class="request-input-error hide"> Какая-то ошибка </div>
+					</div> <input placeholder="E-mail*" name="email" id="email" class="request-popup__input">
 					<div class="request-popup__input-title">
-						Комментарий
-						<div class="request-input-error hide">
-							Какая-то ошибка
-						</div>
-					</div><textarea class="request-popup__input"></textarea>
-					<div class="request-popup__btn-block"><img class="request-popup__btn-image"
-							src="./images/right-arrow-icon.svg" alt="right-arrow-icon"><input class="request-popup__btn btn"
-							type="submit" value="Отправить"></div>
-					<div class="request-popup__checkbox-block"><input type="checkbox" id="switch"><label
-							class="request-popup__label" for="switch">Toggle</label>
+						<div class="request-input-error hide"> Какая-то ошибка </div>
+					</div><textarea placeholder="Комментарий" class="request-popup__input"></textarea>
+					<div class="request-popup__btn-block"><img class="request-popup__btn-image" src="./images/right-arrow-icon.svg" alt="right-arrow-icon"><input class="request-popup__btn btn" type="submit" value="Отправить"></div>
+					<div class="request-popup__checkbox-block"><input type="checkbox" id="switch"><label class="request-popup__label" for="switch">Toggle</label>
 						<div class="request-popup__checkbox-txt">Я согласен(a) на обработку персональных данных</div>
 					</div>
 				</form>
@@ -198,50 +151,54 @@
 			</div>
 			<div class="banner__list">
 				<div class="banner__item">
-					<div class="banner__content __container">
-						<a href="#" class="banner__title bold">Разработка сайтов любой сложности</a>
-						<div class="banner__subtitle">
-							<a href="#">Интернет магазины</a>
-
+					<div class="banner__content __container"> <a href="#" class="banner__title bold">Разработка сайтов любой сложности</a>
+						<div class="banner__subtitle"> <a href="#">Интернет магазины</a> </div>
+						<div class="banner__subtitle"> <a href="#">Корпоративный сайт</a> </div>
+						<div class="banner__subtitle"> <a href="#">WEB приложения</a> </div>
+						<div class="banner__subtitle"> <a href="#">Лендинг</a> </div>
+						<div class="work-order__btn-block">
+							<div class="request-btn bold">Заказать звонок
+								<img src="./images/right-arrow-icon.svg" alt="right-arrow-icon">
+							</div>
 						</div>
-						<div class="banner__subtitle">
-							<a href="#">Корпоративный сайт</a>
-
-						</div>
-						<div class="banner__subtitle">
-							<a href="#">WEB приложения</a>
-
-						</div>
-						<div class="banner__subtitle">
-							<a href="#">Лендинг</a>
-
-						</div>
-						<div class="banner__image"><img src="./images/statue_1.svg" alt="statue_1"></div>
-					</div>
-				</div>
-				<div class="banner__item">
-					<div class="banner__content __container">
-						<a href="#" class="banner__title bold">Разработка мобильных приложений</a>
-						<div class="banner__subtitle">
-							<a href="#">IOS и Android приложения, которые легко развивать и поддердивать</a>
-						</div>
-						<div class="banner__image banner__image--second"><img src="./images/statue_2.svg" alt="statue_2">
+						<div class="banner__image-block">
+							<div class="banner__image">
+								<img src="./images/statue_1.svg" alt="statue_1">
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="banner__item">
-					<div class="banner__content __container">
-						<a href="#" class="banner__title bold">Внедрение CRM</a>
-						<div class="banner__subtitle">
-							<a href="#">Сложные интерграции</a>
+					<div class="banner__content __container"> <a href="#" class="banner__title bold">Разработка мобильных приложений</a>
+						<div class="banner__subtitle"> 
+							<a href="#">IOS и Android приложения, которые легко развивать и поддерживать</a>
+							<div class="work-order__btn-block">
+								<div class="request-btn bold">Заказать звонок
+									<img src="./images/right-arrow-icon.svg" alt="right-arrow-icon">
+								</div>
+							</div> 
 						</div>
-						<div class="banner__subtitle">
-							<a href="#">Настройка бизнес-процессов</a>
+						<div class="banner__image-block">
+							<div class="banner__image banner__image--second">
+								<img src="./images/statue_2.svg" alt="statue_2">
+							</div>
 						</div>
-						<div class="banner__subtitle">
-							<a href="#">Обучение</a>
+					</div>
+				</div>
+				<div class="banner__item">
+					<div class="banner__content __container"> <a href="#" class="banner__title bold">Внедрение CRM</a>
+						<div class="banner__subtitle"> <a href="#">Сложные интерграции</a> </div>
+						<div class="banner__subtitle"> <a href="#">Настройка бизнес-процессов</a> </div>
+						<div class="banner__subtitle"> <a href="#">Обучение</a> 
+						<div class="work-order__btn-block">
+							<div class="request-btn bold">Заказать звонок
+								<img src="./images/right-arrow-icon.svg" alt="right-arrow-icon">
+							</div>
 						</div>
-						<div class="banner__image banner__image--third"><img src="./images/statue_3.svg" alt="statue_3">
+					</div>
+					<div class="banner__image-block">
+						<div class="banner__image banner__image--third">
+							<img src="./images/statue_3.svg" alt="statue_3">
 						</div>
 					</div>
 				</div>
@@ -256,15 +213,12 @@
 						<div class="development-stages__item-info">
 							<div class="development-stages__item-title bold">Разработка ПО</div>
 							<ul class="development-stages__list bold">
-								<li class="development-stages__list-item">Индивидуальная разработка програмного
-									обеспечения любой
-									сложности</li>
+								<li class="development-stages__list-item">Индивидуальная разработка програмного обеспечения любой сложности</li>
 								<li class="development-stages__list-item">Доработка существующих ИТ решений</li>
 							</ul>
 						</div>
 						<div class="development-stages__number bold">01
-							<div class="development-stages__image"><img src="./images/number_one.svg" alt="number_one">
-							</div>
+							<div class="development-stages__image"><img src="./images/number_one.svg" alt="number_one"> </div>
 						</div>
 					</div>
 					<div class="development-stages__item">
@@ -281,22 +235,18 @@
 							</ul>
 						</div>
 						<div class="development-stages__number bold">02
-							<div class="development-stages__image"><img src="./images/number_two.svg" alt="number_two">
-							</div>
+							<div class="development-stages__image"><img src="./images/number_two.svg" alt="number_two"> </div>
 						</div>
 					</div>
 					<div class="development-stages__item">
 						<div class="development-stages__item-info">
 							<div class="development-stages__item-title bold">20+ Квалифицированных специалистов</div>
 							<ul class="development-stages__list bold">
-								<li class="development-stages__list-item">5 проектных команд и ни одного фрилансера на
-									удаленке
-								</li>
+								<li class="development-stages__list-item">5 проектных команд и ни одного фрилансера на удаленке </li>
 							</ul>
 						</div>
 						<div class="development-stages__number bold">03
-							<div class="development-stages__image"><img src="./images/number_three.svg" alt="number_three">
-							</div>
+							<div class="development-stages__image"><img src="./images/number_three.svg" alt="number_three"> </div>
 						</div>
 					</div>
 				</div>
@@ -304,45 +254,31 @@
 		</div>
 		<div class="benefits bold">
 			<div class="benefits__section benefits__section-black">
-				<div class="benefits__content __container bold">Свой собственный путь развития и работа для вашего
-					успеха
-					сделал из нас профессионалов в сфере разработки, и мы продолжаем расти и совершенствоваться, чтобы
-					ваш
-					бизнес развивался</div>
+				<div class="benefits__content __container bold">Свой собственный путь развития и работа для вашего успеха сделал из нас профессионалов в сфере разработки, и мы продолжаем расти и совершенствоваться, чтобы ваш бизнес развивался</div>
 			</div>
 			<div class="benefits__section">
 				<div class="benefits__content __container bold">
 					<div class="benefits__txt bold">Почему наши клиенты заказывают разработку CYPHERR?</div><span>Потому
 						что они ценят опыт, профессионализм и погружение – и мы с удовольствием делаем это для вас. Наши
 						принципы работы основаны на развитии вашего благополучия</span>
-					<div class="benefits__txt bold">Мы полностью изучаем бизнес клиента и погружаемся в изучение ваших
-						задач
-					</div>
+					<div class="benefits__txt bold">Мы полностью изучаем бизнес клиента и погружаемся в изучение ваших задач </div>
 				</div>
 			</div>
 			<div class="benefits__section benefits__section-black">
 				<div class="benefits__content __container">
-					<div class="benefits__text-block bold">Мы представляем самый широкий спектр веб- разработки для всех
-						сфер
-						деятельности в любой точке мира</div>
-					<div class="benefits__image"><img src="./images/services_in_number.png" alt="services_in_number">
-					</div>
+					<div class="benefits__text-block bold">Мы представляем самый широкий спектр веб- разработки для всех сфер деятельности в любой точке мира</div>
+					<div class="benefits__image"><img src="./images/services_in_number.png" alt="services_in_number"> </div>
 				</div>
 			</div>
 			<div class="benefits__section">
-				<div class="benefits__content __container bold">Постоянное совершенствование приводит к нашему развитию,
-					мы
-					предлагаем только прогрессивные решения в мире веб разработок.</div>
+				<div class="benefits__content __container bold">Постоянное совершенствование приводит к нашему развитию, мы предлагаем только прогрессивные решения в мире веб разработок.</div>
 			</div>
 			<div class="benefits__section benefits__section-black">
 				<div class="benefits__content __container">
 					<div class="benefits__text-block">
 						<p>Наша компания не предлагает скучных, устаревших или неинтересных решений</p>
-						<p>Помогаем трансформироваться тем, кто готов к переменам. Реализуем проекты, которые приносят
-							измеримый результат</p>
-						<p>CYPHERR работает, что бы вы росли и развивались. Подтверждение тому – реализованные проекты
-							для
-							всех сфер бизнеса</p>
+						<p>Помогаем трансформироваться тем, кто готов к переменам. Реализуем проекты, которые приносят измеримый результат</p>
+						<p>CYPHERR работает, что бы вы росли и развивались. Подтверждение тому – реализованные проекты для всех сфер бизнеса</p>
 					</div>
 					<div class="benefits__image"><img src="./images/arms.png" alt="arms"></div>
 				</div>
@@ -365,71 +301,31 @@
 							<li class="projects__tab-content-item active">
 								<div class="projects__tab-content-items-wrap">
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 								</div>
@@ -437,71 +333,31 @@
 							<li class="projects__tab-content-item">
 								<div class="projects__tab-content-items-wrap">
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 								</div>
@@ -509,71 +365,31 @@
 							<li class="projects__tab-content-item">
 								<div class="projects__tab-content-items-wrap">
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 								</div>
@@ -581,71 +397,31 @@
 							<li class="projects__tab-content-item">
 								<div class="projects__tab-content-items-wrap">
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 									<div class="projects__item">
-										<div class="projects__item-image-block">
-											<img src="" alt="" class="projects__item-image">
-										</div>
+										<div class="projects__item-image-block"> <img src="" alt="" class="projects__item-image"> </div>
 										<div class="projects__item-info">
 											<div class="projects__item-title">Title</div>
-											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing
-												elit.
-												Iusto
-												eum
-												ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores
-												odit
-												rem
-												quae
-												esse aliquid quam adipisci eos repellendus.</div>
+											<div class="projects__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eum ipsum soluta repellat id, beatae quos laboriosam et perspiciatis illo asperiores odit rem quae esse aliquid quam adipisci eos repellendus.</div>
 										</div>
 									</div>
 								</div>
@@ -654,26 +430,18 @@
 						<div class="projects__btn-block"><a class="projects__btn btn bold" href="#">Все проекты<img
 									src="./images/right-arrow-icon.svg" alt="right-arrow-icon"></a></div>
 					</div>
-
 				</div>
-
 			</div>
-			<div class="projects__container">
-
-			</div>
+			<div class="projects__container"> </div>
 		</div>
 		<div class="work-order">
 			<div class="work-order__content __container">
 				<div class="work-order__title bold">Как заказать разработку CYPHERR</div>
-				<div class="work-order__text">Почему среди многих интеграторов клиенты выбирают нас? Потому что они
-					ценят
-					опыт, внимание к деталям, разноплановость и экспертность. Вам нужен WOW сайт или лаконичный
-					интернет-магазин? Уникальное приложение или CRM? Емкий корпоративный ресурс или работающий лэндинг
-					пейдж?
-					Cypherr уже знает, что вам предложить<br>Осталось только позвонить</div>
+				<div class="work-order__text">Почему среди многих интеграторов клиенты выбирают нас? Потому что они ценят опыт, внимание к деталям, разноплановость и экспертность. Вам нужен WOW сайт или лаконичный интернет-магазин? Уникальное приложение или CRM? Емкий корпоративный ресурс или работающий лэндинг пейдж? Cypherr уже знает, что вам предложить<br>Осталось только позвонить</div>
 				<div class="work-order__btn-block">
-					<div class="request-btn bold">Заказать звонок<img src="./images/right-arrow-icon.svg"
-							alt="right-arrow-icon"></div>
+					<div class="request-btn bold">Заказать звонок
+						<img src="./images/right-arrow-icon.svg" alt="right-arrow-icon">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -686,8 +454,7 @@
 						<li class="work-plan__list-item">разрабатываем и улучшаем контент</li>
 						<li class="work-plan__list-item">расширяем возможности сайтов и внедряем новые блоки</li>
 						<li class="work-plan__list-item">отвечаем за техническую безопасность и поддержку</li>
-						<li class="work-plan__list-item">помогаем автоматизировать бизнес и подключать системы
-							управления</li>
+						<li class="work-plan__list-item">помогаем автоматизировать бизнес и подключать системы управления</li>
 						<li class="work-plan__list-item">помогаем рекомендациями и занимаемся продвижением онлайн</li>
 					</ul>
 				</div>
@@ -699,81 +466,54 @@
 				<div class="clients-and-partners__frid-wrap">
 					<div class="clients-and-partners__item-wrap">
 						<div class="clients-and-partners__item">
-							<div class="clients-and-partners__image">
-								<img src="/images/partners_1.png" alt="SLK">
-							</div>
+							<div class="clients-and-partners__image"> <img src="/images/partners_1.png" alt="SLK"> </div>
 						</div>
 						<div class="clients-and-partners__text">СТРОИТЕЛЬНО-ЛАНДШАФТНАЯ КОМПАНИЯ SLK</div>
-
 					</div>
 					<div class="clients-and-partners__item-wrap">
 						<div class="clients-and-partners__item">
-							<div class="clients-and-partners__image">
-								<img src="/images/partners_2.png" alt="ЦСКА">
-							</div>
+							<div class="clients-and-partners__image"> <img src="/images/partners_2.png" alt="ЦСКА"> </div>
 						</div>
 						<div class="clients-and-partners__text">ЦСКА АРЕНА</div>
-
 					</div>
 					<div class="clients-and-partners__item-wrap">
 						<div class="clients-and-partners__item">
-							<div class="clients-and-partners__image">
-								<img src="/images/partners_3.png" alt="RDS">
-							</div>
+							<div class="clients-and-partners__image"> <img src="/images/partners_3.png" alt="RDS"> </div>
 						</div>
 						<div class="clients-and-partners__text">RUSSIAN DRIFT SERIES</div>
-
 					</div>
 					<div class="clients-and-partners__item-wrap">
 						<div class="clients-and-partners__item">
-							<div class="clients-and-partners__image">
-								<img src="/images/partners_4.png" alt="МОПО">
-							</div>
+							<div class="clients-and-partners__image"> <img src="/images/partners_4.png" alt="МОПО"> </div>
 						</div>
-						<div class="clients-and-partners__text">МИНЕСТЕРСТВО ОБРАЗОВАНИЯ ПЕНЗЕНСКОЙ ОБЛАСТИ
-
-						</div>
+						<div class="clients-and-partners__text">МИНЕСТЕРСТВО ОБРАЗОВАНИЯ ПЕНЗЕНСКОЙ ОБЛАСТИ </div>
 					</div>
 					<div class="clients-and-partners__item-wrap">
 						<div class="clients-and-partners__item">
-							<div class="clients-and-partners__image">
-								<img src="/images/partners_5.png" alt="МЧС РОССИИ">
-							</div>
+							<div class="clients-and-partners__image"> <img src="/images/partners_5.png" alt="МЧС РОССИИ"> </div>
 						</div>
 						<div class="clients-and-partners__text">СЛУЖБА ГРАЖДАНСКОЙ БЕЗОПАСНОСТИ УЛЬЯНОВСКОГО РАЙОНА</div>
-
 					</div>
 					<div class="clients-and-partners__item-wrap">
 						<div class="clients-and-partners__item">
-							<div class="clients-and-partners__image">
-								<img src="/images/partners_6.png" alt="GO">
-							</div>
+							<div class="clients-and-partners__image"> <img src="/images/partners_6.png" alt="GO"> </div>
 						</div>
 						<div class="clients-and-partners__text">БРЕНД “GO”</div>
-
 					</div>
 					<div class="clients-and-partners__item-wrap">
 						<div class="clients-and-partners__item">
-							<div class="clients-and-partners__image">
-								<img src="/images/partners_7.png" alt="OZON">
-							</div>
+							<div class="clients-and-partners__image"> <img src="/images/partners_7.png" alt="OZON"> </div>
 						</div>
 						<div class="clients-and-partners__text">OZON BALLON</div>
-
 					</div>
 					<div class="clients-and-partners__item-wrap">
 						<div class="clients-and-partners__item">
-							<div class="clients-and-partners__image">
-								<img src="/images/partners_8.png" alt="ГУЛР">
-							</div>
+							<div class="clients-and-partners__image"> <img src="/images/partners_8.png" alt="ГУЛР"> </div>
 						</div>
 						<div class="clients-and-partners__text">ГЛАВНОЕ УПРАВЛЕНИЕ ЛЕВОКУМСКОГО РАЙОНА</div>
-
 					</div>
 				</div>
 			</div>
-
-
 		</div>
 		<div class="certificates">
 			<div class="certificates__content __container">
@@ -816,12 +556,9 @@
 				<div class="footer__projects-and-contacts-content">
 					<div class="footer__title bold"><a href="#">Проекты</a></div>
 					<div class="footer__title bold"><a href="#">Контакты</a></div>
-					<div class="footer__contacts-item"><img src="./images/gray-phone-icon.svg" alt="gray-phone-icon"><a
-							href="tel:+7 (999) 521-91-01">+7 (999) 521-91-01</a></div>
-					<div class="footer__contacts-item"><img src="./images/gray-phone-icon.svg" alt="gray-phone-icon"><a
-							href="tel:+7 (999) 521-91-01">+7 (925) 720-48-90</a></div>
-					<div class="footer__contacts-item"><img src="./images/gray-mail-icon.svg" alt="gray-mail-icon"><a
-							href="mailto:info@cypherr.ru">info@cypherr.ru</a></div>
+					<div class="footer__contacts-item"><img src="./images/gray-phone-icon.svg" alt="gray-phone-icon"><a href="tel:+7 (999) 521-91-01">+7 (999) 521-91-01</a></div>
+					<div class="footer__contacts-item"><img src="./images/gray-phone-icon.svg" alt="gray-phone-icon"><a href="tel:+7 (999) 521-91-01">+7 (925) 720-48-90</a></div>
+					<div class="footer__contacts-item"><img src="./images/gray-mail-icon.svg" alt="gray-mail-icon"><a href="mailto:info@cypherr.ru">info@cypherr.ru</a></div>
 				</div>
 			</div>
 		</div>
@@ -833,5 +570,4 @@
 		</div>
 	</footer>
 </body>
-
 </html
