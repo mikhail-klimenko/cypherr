@@ -1836,7 +1836,7 @@ projects__item-image {
 	color: #95deff;
 }
 
-.services__title:last-child {
+.services__title:nth-child(2) {
 	display: none;
 }
 
@@ -1943,7 +1943,7 @@ projects__item-image {
 		display: none;
 	}
 
-	.services__title:last-child {
+	.services__title:nth-child(2) {
 		display: block;
 	}
 
