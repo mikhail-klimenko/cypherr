@@ -1816,7 +1816,7 @@ projects__item-image {
 .services {
 	margin-top: 80px;
 	background: #181818;
-	padding: 80px 28px 190px 28px;
+	padding: 80px 28px 80px 28px;
 	color: #fff;
 }
 
@@ -1930,7 +1930,8 @@ projects__item-image {
 
 	.services {
 		margin-top: 60px;
-		padding-top: 60px
+		padding-top: 60px;
+		padding-bottom: 60px;
 	}
 
 	.txt-block {
@@ -1985,7 +1986,8 @@ projects__item-image {
 
 	.services {
 		margin-top: 40px;
-		padding-top: 40px
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 
 	.txt-block {
