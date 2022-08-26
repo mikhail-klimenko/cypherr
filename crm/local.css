@@ -32,8 +32,8 @@
 
 .integration__image {
 	position: absolute;
-    right: 5%;
-    width: 29%;
+    right: 10%;
+    width: 23%;
 
 }
 
@@ -43,15 +43,14 @@
 
 @media (max-width: 1700px) {
 	.integration__image {
-		width: 35%;
-		right: 5%;
+		width: 30%;
 	}
 }
 
 @media (max-width: 1440px) {
 	.integration__image {
 		right: 0%;
-		width: 45%;
+		width: 35%;
 	}
 }
 
