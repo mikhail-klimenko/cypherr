@@ -1945,6 +1945,10 @@ projects__item-image {
 	.txt-block__text {
 		font-size: 18px;
 	}
+
+	.services__text {
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 1170px) {
@@ -1979,6 +1983,7 @@ projects__item-image {
 
 	.services__text {
 		width: unset;
+		font-size: 14px;
 	}
 
 	.services__list {
