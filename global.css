@@ -1928,6 +1928,10 @@ projects__item-image {
 
 @media (max-width: 1200px) {
 
+	.services__image {
+		width: 66%;
+	}
+
 	.services {
 		margin-top: 60px;
 		padding-top: 60px;
