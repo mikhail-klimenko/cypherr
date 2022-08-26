@@ -1957,7 +1957,7 @@ projects__item-image {
 	}
 
 	.services__title {
-		font-size: 32px;
+		font-size: 28px;
 	}
 
 	.services__title:first-child {
@@ -1980,6 +1980,14 @@ projects__item-image {
 	.services__text {
 		width: unset;
 	}
+
+	.services__list {
+		font-size: 24px;
+	}
+	
+	.services__subtitle {
+		font-size: 28px;
+	}
 }
 
 @media (max-width: 800px) {
@@ -1997,12 +2005,36 @@ projects__item-image {
 
 @media (max-width: 768px) {
 
+	.services__title {
+		font-size: 18px;
+	}
+
+	.services__list {
+		font-size: 14px;
+	}
+	
+	.services__subtitle {
+		font-size: 18px;
+	}
+
 	.txt-block__title {
 		font-size: 18px;
 	}
 
 	.txt-block__text {
 		font-size: 14px;
+	}
+
+	.services__btn {
+		margin-top: 50px;
+		padding: 10px 10px;
+		font-size: 16px;
+		width: 150px;
+		height: 36px;
+	}
+
+	.services__btn img{
+		padding-top: 2px;
 	}
 }
 
