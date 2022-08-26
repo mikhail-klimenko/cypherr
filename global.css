@@ -2010,6 +2010,10 @@ projects__item-image {
 	.txt-block__content {
 		padding: 0 15px;
 	}
+
+	.services {
+		padding: 40px 15px;
+	}
 }
 
 .li-block__content {
